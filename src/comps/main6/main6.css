@@ -1,0 +1,138 @@
+.main6{
+    height: 100vh;
+    width: 100%;
+}
+
+.calc{
+    background: #EBF2FF;
+   display: flex;
+   width: 80%;
+   box-shadow: 0px 2px 10px 0px #0000000D;
+   margin: 0 auto;
+   height: 150px;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 16px;
+}
+
+.one>h1{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+    color: #1C5BD9;
+    font-size: 36px;
+}
+
+.bldr{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.norm{
+
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.upperfeed{
+    width: 80%;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upperfeed>h1{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+
+.upperfeed>span{
+display: flex;
+justify-content: center;
+align-items: center;
+color: #1C5BD9;
+    border: 1px solid blue;
+    border-radius: 100px;
+    width: 125px;
+    height: 44px;
+   
+
+}
+.lowerfeed{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.feed01{
+    box-shadow: 0px 2px 10px 0px #0000000D;
+
+width: 319px;
+height: 267px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 10px;
+border-radius: 16px;
+position: relative;
+
+}
+
+.feed01>img{
+    background: #1C5BD9;
+
+    border-radius: 100px;
+    position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+
+.gryline{
+    height: 2px;
+    margin-left: 15px;
+    width: 90%;
+    background-color:gray;
+}
+
+.feed01>h3{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 600;
+    font-size: 20px;
+}
+.feed01>span{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.clientdet{
+    display: flex;
+}
+
+
+.clientdet>img{
+    width: 50px;
+    height: 50px;
+}
+
+.clientdet>div>h1{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+
+.clientdet>div>h2{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+    font-size: 14px;
+
+}

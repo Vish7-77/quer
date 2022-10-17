@@ -1,0 +1,106 @@
+.footer{
+    background: #D2E1FE;
+  height: 70vh;width: 100%;
+  display: flex;
+  margin-top: 20%;
+  box-shadow: 0 -1px 10px rgba(39, 38, 38, 0.2);
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+ width: 50%;
+
+    position: relative;
+}
+
+.f01{
+    position: absolute;
+    top: 20px;
+    right: 172px;
+}
+
+.left>div>h2{
+    width: 50%;
+   margin-left: 20%;
+   text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.f02{
+    position: absolute;
+    top: 155px;
+    right: 110px;
+}
+
+.f03{
+    position: absolute;
+    top: 295px;
+    right: 100px;
+}
+
+.f04{
+    position: absolute;
+    top: 295px;
+    left: 155px;
+}
+
+.f05{
+    position: absolute;
+    top: 95px;
+    left: 95px;
+}
+.f06{
+    position: absolute;
+    top: 200px;
+    left: 55px;
+}
+
+.footright{
+    align-items: baseline;
+    margin-top: 3rem;
+display: flex;
+width: 50%;
+justify-content: space-evenly;
+
+}
+
+.footer001{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer001>h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer001>span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.and{
+    width: 150px;
+    height: 39px;
+    margin-top: 4rem;
+}
+
+.ios{
+    width: 150px;
+    height: 39px;
+    margin-top: 6.8rem;
+}
+
+.footicon{
+    margin-top: 3rem;
+    display: flex;
+    font-size: 2em;
+    margin-left: -2rem;
+    justify-content: space-evenly
+}

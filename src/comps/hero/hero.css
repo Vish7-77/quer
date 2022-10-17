@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.hero{
+   
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    background-color: #F2F7FF;
+}
+
+
+.inhero{
+    background: #D2E1FE;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.heroleft{
+
+    width: 50%;
+    position: relative;
+}
+
+.heroleft>img{
+  bottom: 22px;
+  
+    position: absolute;
+}
+.bghroleftup{
+    left: 30%;
+}
+
+.bghroleft{
+  top: 40px;
+  left: 0px;
+
+    
+}
+
+
+
+.heo{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    height: 15vh;
+    bottom: 19px;
+    justify-content: center;
+}
+
+.heodown{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background: #7F75FF;
+      height: 100%;
+      width: 70%;
+    
+}
+
+.heroright{ 
+    align-items: center;
+      display: flex;
+      
+      justify-content: center;
+      
+
+}
+
+.hek{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+
+.inheroright{
+    width: 62%;
+height: 56%;
+display: flex;
+position: relative;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.hteen{
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+}
+
+.btt{
+    width: 173px;
+    font-family: 'Montserrat', sans-serif;  
+    font-size:14px;
+    font-weight:700;
+    background: #1C5BD9;
+ 
+    height: 45px;
+border-radius: 100px
+
+}
+
+.arrow{
+  position: absolute;
+bottom: -13%;
+right: 57%;
+  }
+
+  .arrow2{
+    position: absolute;
+  bottom: -16%;
+  right: 69%;
+  width: 5rem;
+  }
+
+
+  .heodown1{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+  }
+
+  .heodown2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+      }
+
+  .heodown1>span{
+    font-size: 13px;
+    font-weight: 500;
+    width: 55%;
+  }
+
+  
+  .heodown2>span{
+    font-size: 13px;
+    font-weight: 500;
+    width: 70%;
+  }
