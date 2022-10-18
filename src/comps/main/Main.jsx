@@ -5,7 +5,9 @@ import ls from "../../assets/ls.png"
 import call from "../../assets/call.png";
 import pm from "../../assets/pm.png";
 import ma from "../../assets/ma.png";
-import Carousel from 'react-elastic-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 const Main = () => {
  
   return (
@@ -37,27 +39,27 @@ const Main = () => {
   <div className="maincard">
     <img src={erc} alt="" />
     <h2 className="mainh2">Eractile Dysfunction</h2>
-    <span>
+    <h5>
       its defined by diificult in getting and keeping eraction
-    </span>
+    </h5>
   </div>
 </div>
 <div className="cards">
   <div className="maincard">
-    <img src={erc} alt="" />
+    <img src={ls} alt="" />
     <h2 className="mainh2">Eractile Dysfunction</h2>
-    <span>
+    <h5>
       its defined by diificult in getting and keeping eraction
-    </span>
+    </h5>
   </div>
 </div>
 <div className="cards">
   <div className="maincard">
-    <img src={erc} alt="" />
+    <img src={pm} alt="" />
     <h2 className="mainh2">Eractile Dysfunction</h2>
-    <span>
+    <h5>
       its defined by diificult in getting and keeping eraction
-    </span>
+    </h5>
   </div>
 </div>
       </div>
@@ -66,27 +68,27 @@ const Main = () => {
   <div className="maincard">
     <img src={erc} alt="" />
     <h2 className="mainh2">Eractile Dysfunction</h2>
-    <span>
+    <h5>
       its defined by diificult in getting and keeping eraction
-    </span>
+    </h5>
+  </div>
+</div>
+<div className="cards">
+  <div className="maincard">
+    <img src={ma} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <h5>
+      its defined by diificult in getting and keeping eraction
+    </h5>
   </div>
 </div>
 <div className="cards">
   <div className="maincard">
     <img src={erc} alt="" />
     <h2 className="mainh2">Eractile Dysfunction</h2>
-    <span>
+    <h5>
       its defined by diificult in getting and keeping eraction
-    </span>
-  </div>
-</div>
-<div className="cards">
-  <div className="maincard">
-    <img src={erc} alt="" />
-    <h2 className="mainh2">Eractile Dysfunction</h2>
-    <span>
-      its defined by diificult in getting and keeping eraction
-    </span>
+    </h5>
   </div>
 </div>
       </div>

@@ -1,0 +1,171 @@
+.ourdocs {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+}
+.cardsourdoc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainheadingdocs {
+  height: 20%;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+  display: flex;
+}
+.mainheadingdocs > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+}
+.mainheadingdocs > span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1c5bd9;
+  width: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  border: 1px solid #1c5bd9;
+  border-radius: 100px;
+}
+.docscards{
+    display: flex;
+    flex-direction: column;
+width: 35%;
+
+padding-left: 22px;
+/* align-items: center; */
+justify-content: space-evenly;
+height: 450px;
+border: 1px solid #F1F1F1;
+box-shadow: 0px 2px 10px 0px #0000000D;
+
+
+
+}
+.gydoc{
+    height: 90px;
+width: 90px;
+
+
+}
+.gyno {
+    width: 30%;
+    padding-left:6px;
+  background: #f4faff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c5bd9;
+}
+
+.grydoc {
+   justify-content: space-evenly;
+  display: flex;
+  background: #f1f1ff;
+  height: 126px;
+  width: 409px;
+  padding-top: 12px;
+  border-radius: 12px;
+}
+.grydoc001{
+    padding-top: 22px;
+}
+
+.grydoc001 > h1 {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 700;
+}
+.grydoc001 > span > h2 {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 7005;
+}
+
+.docinfo01 {
+    font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 500;
+
+
+}
+
+.docinfo02{
+    font-family: 'Montserrat';
+font-size: 12px;
+text-align: left;
+font-weight: 500;
+
+}
+  
+.docprice{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F1F1F1;
+    width: 30%;
+}
+.docprice>h5{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 800;
+    
+    
+}
+.docprice>h4{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 800;
+    
+    
+
+}
+.ingrydoc>img{
+    margin: 3px;
+}
+
+.doccardsbot{
+    display: flex;
+    width: 90%;
+    margin-top: 22px;
+    margin-left: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.docpricebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 45px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+border: 1px solid #0D5DA7;
+border-radius: 100px;
+    color: #0D5DA7;
+
+}
+.doccardsbot>h5{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+  
+    
+}
+.ingrydoc{
+    display: flex;
+}
