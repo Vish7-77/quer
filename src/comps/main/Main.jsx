@@ -5,7 +5,9 @@ import ls from "../../assets/ls.png"
 import call from "../../assets/call.png";
 import pm from "../../assets/pm.png";
 import ma from "../../assets/ma.png";
+import Carousel from 'react-elastic-carousel';
 const Main = () => {
+ 
   return (
     <>
       <section className="main-01">
@@ -29,46 +31,108 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section className="maincards">
-        <div className="cards">
-          <div className="maincard">
-            <img src={erc} alt="" />
-            <h2 className="mainh2">Eractile Dysfunction</h2>
-            <span>
-              its defined by diificult in getting and keeping eraction
-            </span>
-          </div>
-        </div>
-        <div className="cards">
-          <div className="maincard">
-            <img src={ls} alt="" />
-            <h2 className="mainh2">Eractile Dysfunction</h2>
-            <span>
-              its defined by diificult in getting and keeping eraction
-            </span>
-          </div>
-        </div>
-        <div className="cards">
-          <div className="maincard">
-            <img src={pm} alt="" />
-            <h2 className="mainh2">Eractile Dysfunction</h2>
-            <span>
-              its defined by diificult in getting and keeping eraction
-            </span>
-          </div>
-        </div>
-        <div className="cards">
-          <div className="maincard">
-            <img src={erc} alt="" />
-            <h2 className="mainh2">Eractile Dysfunction</h2>
-            <span>
-              its defined by diificult in getting and keeping eraction
-            </span>
-          </div>
-        </div>
-      </section>
+      <Carousel>
+      <div className="sliderone">
+      <div className="cards">
+  <div className="maincard">
+    <img src={erc} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <span>
+      its defined by diificult in getting and keeping eraction
+    </span>
+  </div>
+</div>
+<div className="cards">
+  <div className="maincard">
+    <img src={erc} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <span>
+      its defined by diificult in getting and keeping eraction
+    </span>
+  </div>
+</div>
+<div className="cards">
+  <div className="maincard">
+    <img src={erc} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <span>
+      its defined by diificult in getting and keeping eraction
+    </span>
+  </div>
+</div>
+      </div>
+      <div className="sliderone">
+      <div className="cards">
+  <div className="maincard">
+    <img src={erc} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <span>
+      its defined by diificult in getting and keeping eraction
+    </span>
+  </div>
+</div>
+<div className="cards">
+  <div className="maincard">
+    <img src={erc} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <span>
+      its defined by diificult in getting and keeping eraction
+    </span>
+  </div>
+</div>
+<div className="cards">
+  <div className="maincard">
+    <img src={erc} alt="" />
+    <h2 className="mainh2">Eractile Dysfunction</h2>
+    <span>
+      its defined by diificult in getting and keeping eraction
+    </span>
+  </div>
+</div>
+      </div>
+       
+      </Carousel>
+    
     </>
   );
 };
 
 export default Main;
+//  <section className="maincards">
+// <div className="cards">
+//   <div className="maincard">
+//     <img src={erc} alt="" />
+//     <h2 className="mainh2">Eractile Dysfunction</h2>
+//     <span>
+//       its defined by diificult in getting and keeping eraction
+//     </span>
+//   </div>
+// </div>
+// <div className="cards">
+//   <div className="maincard">
+//     <img src={ls} alt="" />
+//     <h2 className="mainh2">Eractile Dysfunction</h2>
+//     <span>
+//       its defined by diificult in getting and keeping eraction
+//     </span>
+//   </div>
+// </div>
+// <div className="cards">
+//   <div className="maincard">
+//     <img src={pm} alt="" />
+//     <h2 className="mainh2">Eractile Dysfunction</h2>
+//     <span>
+//       its defined by diificult in getting and keeping eraction
+//     </span>
+//   </div>
+// </div>
+// <div className="cards">
+//   <div className="maincard">
+//     <img src={erc} alt="" />
+//     <h2 className="mainh2">Eractile Dysfunction</h2>
+//     <span>
+//       its defined by diificult in getting and keeping eraction
+//     </span>
+//   </div>
+// </div>
+// </section> 

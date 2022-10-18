@@ -6,7 +6,7 @@
   box-shadow: 0 -1px 10px rgba(39, 38, 38, 0.2);
 }
 
-.left{
+.leftfoot{
     display: flex;
     justify-content: center;
  width: 50%;
@@ -20,8 +20,9 @@
     right: 172px;
 }
 
-.left>div>h2{
+.leftfoot>div>h2{
     width: 50%;
+    margin-top: 30%;
    margin-left: 20%;
    text-align: center;
     font-family: "Montserrat", sans-serif;
