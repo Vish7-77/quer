@@ -5,7 +5,7 @@ import yellowstar from "../../assets/yellowstar.png"
 import rdocart02 from "../../assets/rdocart02.png"
 const TrtMain6 = () => {
   return (
-    <section className="trtmain4">
+    <section className="trtmain4" style={{marginTop:"10%"}}>
     <div className="uppermain4">
       <h1>Sex-Ed Courses for Kids</h1>
       <span>First time in india in Animated Story format</span>
