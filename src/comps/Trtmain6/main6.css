@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
+    /* margin-top: %; */
     align-items: center;
     
     justify-content: space-around;

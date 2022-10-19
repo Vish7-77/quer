@@ -72,16 +72,20 @@ color: #1C5BD9;
 
 .feed01{
     box-shadow: 0px 2px 10px 0px #0000000D;
+    width: 319px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 16px;
+    position: relative;
+    margin-left: 12%;
 
-width: 319px;
-height: 267px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-padding: 10px;
-border-radius: 16px;
-position: relative;
+}
 
+.react-multi-carousel-list  {
+    height: 400px;
 }
 
 .feed01>img{

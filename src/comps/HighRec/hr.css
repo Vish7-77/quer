@@ -1,0 +1,81 @@
+.upperinnerhr>h1{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+margin-bottom: 5%;
+margin-left: 4%;
+
+color: #1C1C1C;
+
+}
+
+.highrec{
+    height: 100vh;
+  
+    
+
+}
+
+.innerhighrec{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.cardhighrec{
+    border: 1px solid #F1F1F1;
+    background: linear-gradient(0deg, #F1F1F1, #F1F1F1),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+box-shadow: 0px 2px 10px 0px #0000000D;
+ padding: 2px;
+    display: flex;
+    height: 330px;
+     flex-direction: column;
+     width: 300px;
+     justify-content: space-evenly;
+}
+.cardhighrec>img{
+    height: 202px;
+width: 300px;
+margin-top: -1rem;
+
+
+}
+.cardhighrec>h2{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+
+color: #1C1C1C;
+
+
+
+
+}
+.cardhighrec>span{
+  
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+
+
+}
+
+.lowerhighrec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardhighrec{
+    margin-left: 3rem;
+}

@@ -5,7 +5,7 @@ import Footer from "./comps/footer/Footer";
 import Home from "./comps/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Treatment from "./comps/Treatment.jsx"
-
+import Doc from "./comps/Doc"
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/treatment" element={<Treatment />}/>
+      <Route path="/doctor" element={<Doc />}/>
       </Routes>
       <Footer />
     </Router>

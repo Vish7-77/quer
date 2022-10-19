@@ -9,10 +9,9 @@ const Head = () => {
   return (
     <section className="main-head">
       <div className="in-Head">
-        <div className="left">
-          <img src={logo} alt="hello" />
-          <span> <a href="/"> Sexual issue we treat </a></span>
-          <span>Our sexiologist</span>
+        <div className="left">   <a href="/">        <img   src={logo} alt="hello" /></a>
+          <span className="onlink" > <a className="links" href="/treatment" alt="m" > Sexual issue we treat </a></span>
+          <span className="onlink" >  <a className="links" href="/doctors" alt="m" >Our sexiologist</a></span>
           <span>Sexual Health Guide</span>
           <span>Sex-ed(for Kids)</span>
         </div>

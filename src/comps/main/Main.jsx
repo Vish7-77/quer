@@ -22,7 +22,7 @@ const Main = () => {
             </div>
             <div className="upper2">
               <div className="upper2-1">
-                <button className="uprbtn btt">male</button>
+                <button className="uprbtn ">male</button>
                 <button className="uprbtn">female</button>
                 <button className="uprbtn">Couple</button>
               </div>
@@ -75,7 +75,7 @@ const Main = () => {
 </div>
 <div className="cards">
   <div className="maincard">
-    <img src={ma} alt="" />
+    <img src={pm} alt="" />
     <h2 className="mainh2">Eractile Dysfunction</h2>
     <h5>
       its defined by diificult in getting and keeping eraction

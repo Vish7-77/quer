@@ -12,7 +12,7 @@ const LearnM = () => {
         <h1> learn more about your condition </h1>
       </div>
       <div className="lowerlm">
-        <Carousel>
+        <Carousel style={{marginTop:"0px"}}>
           <div className="sl1">
             <div className="sl001">
               <img

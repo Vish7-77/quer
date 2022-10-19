@@ -1,0 +1,100 @@
+.docinfoleft>h2{
+
+
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+
+}
+
+.aBoutdoc{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 5%;
+
+}
+
+.docinfoleft{
+ padding-top: 5rem;
+    width: 700px;
+    line-height: 2rem;
+}
+.docinfoleft>p{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+ 
+    
+}
+
+.docinforight{
+    margin-right: 5%;
+    width: 350px;
+    height: 300px;
+    padding-top: 2rem;
+     margin-top: 2rem;
+   
+}
+
+.docinfoleft>span{
+    display: flex;
+    
+}
+.docinfoleft>span>img{
+   width: 22px;
+   height: 18px;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+.box{
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 2px 10px 0px #0000000D;
+   width: 100%;
+   padding: 2rem;
+   position: relative;
+}
+
+
+.dbqu{
+    height: 57.709922790527344px;
+    width: 70px;
+
+
+position: absolute;
+top:-22px;
+right: 12px;
+
+    background: #F1F1F1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+.box>h6{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+ padding: 12%;
+    
+
+}
+.box>h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+     padding-left: 12%;
+
+    
+
+}
+
+
+.calldoc{
+    position: absolute;
+    right: -95px;
+}
