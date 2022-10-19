@@ -12,7 +12,7 @@ const Head = () => {
       <div className="in-Head">
         <div className="left">   <Link  to="/">        <img   src={logo} alt="hello" /></Link>
           <span className="onlink" > <Link className="links" to="/treatment" alt="m" > Sexual issue we treat </Link></span>
-          <span className="onlink" >  <Link className="iinks" to="/doctors" alt="m" >Our sexiologist</Link></span>
+          <span className="onlink" >  <Link className="links" to="/doctors" alt="m" >Our sexiologist</Link></span>
           <span>Sexual Health Guide</span>
           <span>Sex-ed(for Kids)</span>
         </div>
