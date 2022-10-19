@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import "./head.css";
+import {Link} from "react-router-dom"
 import robot from "../../assets/robot.png";
 import beat from "../../assets/beat.png";
 import login from "../../assets/login.png";
@@ -9,9 +10,9 @@ const Head = () => {
   return (
     <section className="main-head">
       <div className="in-Head">
-        <div className="left">   <a href="/">        <img   src={logo} alt="hello" /></a>
-          <span className="onlink" > <a className="links" href="/treatment" alt="m" > Sexual issue we treat </a></span>
-          <span className="onlink" >  <a className="links" href="/doctors" alt="m" >Our sexiologist</a></span>
+        <div className="left">   <Link  to="/">        <img   src={logo} alt="hello" /></Link>
+          <span className="onlink" > <Link className="links" to="/treatment" alt="m" > Sexual issue we treat </Link></span>
+          <span className="onlink" >  <Link className="inks" to="/doctors" alt="m" >Our sexiologist</Link></span>
           <span>Sexual Health Guide</span>
           <span>Sex-ed(for Kids)</span>
         </div>
