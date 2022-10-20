@@ -1,12 +1,15 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import "./head.css";
+
 import {Link} from "react-router-dom"
 import robot from "../../assets/robot.png";
 import beat from "../../assets/beat.png";
 import login from "../../assets/login.png";
 
 const Head = () => {
+
+
   return (
     <section className="main-head">
       <div className="in-Head">
