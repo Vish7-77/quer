@@ -3,9 +3,13 @@
 .hero{
    
     height: 100vh;
-    width: 100%;
+    /* width: 100vw; */
     position:relative;
     background-color: #F2F7FF;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 
@@ -63,7 +67,7 @@
 .heroright{ 
     align-items: center;
       display: flex;
-      
+      width: 50%;
       justify-content: center;
       
 
@@ -72,24 +76,34 @@
 .hek{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 60px;
+    animation: slidecont .4s ease-in .6s backwards; 
+}
+
+@keyframes slidecont {
+  0%{
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
 }
 
 
 .inheroright{
     width: 62%;
-height: 56%;
-display: flex;
-position: relative;
-flex-direction: column;
-justify-content: space-evenly;
+    height: 60%;
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .hteen{
     width: 80%;
     font-family: 'Montserrat', sans-serif;  
     font-weight: 400;
+    font-size: 19px;
 }
 
 .btt{
@@ -106,6 +120,7 @@ border-radius: 100px
 
 .arrow{
   position: absolute;
+  width:128px;
 bottom: -13%;
 right: 57%;
   }
@@ -113,11 +128,14 @@ right: 57%;
   .arrow2{
     position: absolute;
   bottom: -16%;
+  width:128px;
   right: 69%;
   width: 5rem;
   }
 
-
+.beFvwb>.arrow {
+width: 128px !important;
+}
   .heodown1{
 
 display: flex;
@@ -147,4 +165,79 @@ align-items: center;
     font-size: 13px;
     font-weight: 500;
     width: 70%;
+  }
+
+
+  .contnr{
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .slide-cont{
+    height: 100%;
+    width: 100%;
+  }
+
+  .slide{
+    justify-content: center;
+    width: 1200px;
+    display: flex;
+  }
+
+  .slide-left{
+    width: 800px;
+    display: flex;
+    position: relative;
+    height: 600px;
+  }
+
+  .slide-left>img{
+    position: absolute;
+
+  }
+
+  .alldocs{
+    left: 25%;
+    width:680px;
+    height: 500px;
+ bottom:10%  ;
+  }
+
+
+  .slide-right{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 5%; */
+    /* margin-left: 20%; */
+  width: 700px;
+  }
+
+  .homeh1{
+    font-family: Montserrat;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 15%;
+
+  }
+
+  .homeh3{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+width: 60%;
+margin-left: 15%;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  .consultnow{
+    
   }
