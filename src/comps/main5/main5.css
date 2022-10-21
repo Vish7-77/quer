@@ -15,6 +15,120 @@
 
 }
 
+
+.cardo-grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap:1rem;
+  margin: 20px 20px 20px 45px;
+  padding: 30px;
+  
+  
+  
+  }
+  
+  
+  .cardo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 150ms;
+  cursor: pointer;
+  border: 1px solid #F1F1F1;
+  transform: perspective(1000px) rotateY(var(--rotate-Y,0)) translateY(var(--translate-Y,0));
+  height: 250px;
+  box-shadow: 0px 2px 10px 0px #0000000D;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-top: 16px;
+  margin: 10px;
+  
+  
+  }
+  
+  .cardo.flip{
+    --rotate-Y:180deg;
+  }
+  
+
+
+  
+  
+  .cardo.front{
+    left: 0;
+  }
+  .fulldet{
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 200px;
+    
+
+  }
+  .bll{
+    display: block;
+    height: 6px;
+    border-radius: 12px;
+    background-color: blue;
+    width: 20px;
+    /* position: absolute; */
+  }
+  .h111{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  
+
+  .h010{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+width: 180px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .cardo .front{
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .cardo .back{
+    transform: rotateY(180deg);
+  }
+  .cardo01 .front{
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .cardo .back{
+    transform: rotateY(180deg);
+  }
+
+  .incardto{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+  }
 .blueline{
     height: 2px;
     background-color:blue;
@@ -37,13 +151,43 @@
 
 }
 
-.cardo{
+
+.cardo01{
     display: flex;
-justify-content: center;
-text-align: center;
-width: 149px;
-margin-top: 16px;
-}
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 150ms;
+    cursor: pointer;
+    border: 1px solid #F1F1F1;
+    transform: perspective(1000px) rotateY(var(--rotate-Y,0)) translateY(var(--translate-Y,0));
+    height: 250px;
+    box-shadow: 0px 2px 10px 0px #0000000D;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-top: 16px;
+    margin: 10px;
+    
+    
+    }
+    
+    .cardo01.flip{
+      --rotate-Y:180deg;
+    }
+    
+  
+  
+    
+    
+    .cardo01.front{
+      left: 0;
+    }
 
 
 .round{

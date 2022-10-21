@@ -98,3 +98,158 @@ right: 12px;
     position: absolute;
     right: -95px;
 }
+
+.onshow{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+     /* height: 200vh; */
+
+}
+
+
+.onshowup{
+    display: flex;
+}
+
+
+.onshowup01{
+    border: 1px solid #F1F1F1;
+    border-radius: 6px;
+  padding: 5%;
+  margin-right: 5%;
+  background: linear-gradient(0deg, #F1F1F1, #F1F1F1),
+linear-gradient(0deg, #FAFAFA, #FAFAFA);
+
+
+}
+
+.exp{
+ 
+    width: 104px;
+    height: 22px;
+  margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    /* identical to box height */
+    
+    color: #1C1C1C;
+}
+
+.docmore{
+    display: flex;
+}
+
+.docmorein>h1{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.docmorein>h4{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+
+}
+.docmorein>h5{
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    color: #999999;
+    
+    
+
+}
+
+.docmore>img{
+    margin-right: 12px;
+}
+
+.onshowdown{
+    padding: 5%;
+    height: 300px;
+    background: linear-gradient(0deg, #F1F1F1, #F1F1F1),
+linear-gradient(0deg, #FAFAFA, #FAFAFA);
+border: 1px solid #F1F1F1;
+border-radius: 6px;
+margin-top: 5%;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+
+}
+
+.avail{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: #1C1C1C;
+}
+
+.sched{
+    display: flex;
+flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+.days{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.days>h1{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #1C1C1C;
+}
+.days>h3{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    color: #1C1C1C;
+}
+
+.martop04{
+    margin-top: 12px;
+}

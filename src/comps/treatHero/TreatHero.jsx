@@ -1,8 +1,18 @@
-import React from "react";
+import React,{useState} from "react";
 import "./th.css";
 import trtmnt01  from "../../assets/trtmnt01.png"
 import call from "../../assets/call.png"
+import handstouch from "../../assets/handstouch.png"
 const TreatHero = () => {
+  const [isShown, setIsShown] = useState(true);
+  const handleClick = event => {
+    // 👇️ toggle visibility
+    setIsShown(current => !current);
+  };
+
+
+  
+  setInterval(handleClick,6000);
   return (
     <section className="treathero">
       <div className="th01"></div>
@@ -40,8 +50,8 @@ const TreatHero = () => {
 
 
       </div>
-      <div className="th03">
-        <div className="inth03">
+      <div className="th03" >
+        <div className="inth03" style={{display: isShown ? 'flex' : 'none'}}>
 <div className="leftheroth03">
 <h1>what is</h1>
 <h2>Eractile Dysfunction?</h2>
@@ -57,7 +67,38 @@ const TreatHero = () => {
 
 
         </div>
-      </div>
+        
+          
+
+        <div className="inth03" style={{display: isShown ? 'none' : 'block' , boxShadow:"none",background:"none",}}>
+
+
+
+
+        <div className="rightheroth03">
+<img style={{position:"absolute",bottom:"80px",left:"100px",width:"880px", height:"200px",}} src={handstouch} alt="" />
+    
+</div>
+<div style={{position:"absolute",top:"-50%"}} className="leftheroth03">
+<h1>what is</h1>
+<h2>Eractile Dysfunction?</h2>
+<span>ED is defined as the ability  to sustain an eraction  sufficient  for sexual intercourse. The condition  can effect anyone at any age  </span>
+
+<button style={{background:"none",border:"1px solid blue",color:"blue"}} className="consult">Consult Now</button> 
+</div>
+
+
+
+
+        </div>
+
+
+        <button onClick={handleClick} id="ri">{"<"}</button>
+<button onClick={handleClick} id="le"> {">"} </button>
+
+
+        </div>
+
     </section>
   );
 };
