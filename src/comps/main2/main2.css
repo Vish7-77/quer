@@ -19,6 +19,8 @@
 
 }
 
+
+
 .uppermain2-in{
     display: flex;
     justify-content: space-between;
@@ -33,8 +35,24 @@
 
 }
 .docpics>img{
+    cursor: pointer;
     margin-left: 1rem;
+    transition: all;
+    /* transition: width; */
+    /* transition-property: height; */
+    transition-duration: 2s;
+    /* animation: low s ease-in; */
 }
+
+/* @keyframes low {
+ 
+    
+
+    0%{
+        opacity: 0;
+    }
+} */
+
 
 
 .docpics{
@@ -51,6 +69,9 @@ margin:2px ;
 }
 .btnvad{
     width: 183px;
+    border: 1px solid #1C5BD9;
+    color: #1C5BD9;
+
 }
 
 .main2upperleft>h1{
@@ -128,4 +149,10 @@ left: 30%;
     padding-bottom: 10px;
     padding-left: 10px;
     text-align: left;
+}
+
+.docsa3{
+       width: 293px !important;
+       height: 378px !important;
+       /* cursor: pointer; */
 }

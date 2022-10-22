@@ -1,9 +1,107 @@
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.shoenum{
+  position: absolute;
+  top: 204%;
+  left: 94%;
+  
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  /* background-color: blue; */
+  width: 32px;
+  /* padding-top: 22px; */
+  height:12px;
+  text-align: center;
+  
+  border-radius: 12px;
+}
+.owl-dot.active>span{
+  text-align: left;
+  width:15px !important;
+ 
+  background: #1C5BD9 !important;
+
+}
+
+/* .owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  /* margin: 5px 7px; */
+  /* background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px; */
+/* } */ */
+
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+/* span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+} */
+.owl-nav button:focus {
+    outline: none;
+}
+
+
+
+
 .sect{
     position: relative;  
     height: 450px;
     width: 1075px;
     display: flex;
     align-items: center;
+  }
+
+  .upper2-1>button{
+    margin-left: 22px;
+
+
+
+  }
+
+  .owl-nav{
+    display: none;
+  }
+  .owl-prev,
+  .owl-next{
+    display: none;
   }
  .link{
   text-decoration: none;
@@ -259,16 +357,23 @@ width: 100%;
 }
 
 .call{
-position: absolute;
-right:6px;
+display: none;
+}
+#drkbl{
+  background-color: #1C5BD9;
+  color: white;
 }
 
+.sec10.active{
+  background-color: blue;
+
+}
 
 .uprbtn{
     width: 75px;
   margin: 3px;
     border: 1px solid #DDDDDD;
-    color: #0D5DA7;
+    color:gray;
     background: white;
     height: 33px;
     border-radius: 100px;
@@ -392,7 +497,7 @@ body{
   filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=7);
 }
 .switch.monthly.active{
-  background-color:#777777;
+  /* background-color:#777777; */
 }
 .switch.semester.active{
   background-color:#418d92;

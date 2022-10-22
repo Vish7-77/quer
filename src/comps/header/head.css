@@ -15,8 +15,8 @@
 .headbtn{
   width: 108px;
   height: 43px;
-  border: 1px solid #1C5BD9;  
-  color: #1C5BD9;
+  border: 1px solid #0D5DA7; 
+  color: #1C5BD9;;
   border-radius: 100px;
   font-family: Montserrat;
 font-size: 14px;
@@ -40,6 +40,21 @@ font-weight: 700;
   color: black;
 
 }
+.newsv{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+z-index: -1;
+}
+.zin{
+  position: absolute;
+  z-index: 11;
+  right: 30px;
+}
+
+.shin{
+  z-index: 11;
+}
 
 .left {
 
@@ -56,17 +71,17 @@ font-weight: 700;
   margin-left: 22px;
 }
 
-.right {
+.right01 {
   justify-content: space-evenly;
   display: flex;
   width: 30%;
   align-items: center;
 }
 
-.right > span {
+.right01 > span {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   cursor: pointer;
   
@@ -74,11 +89,27 @@ font-weight: 700;
 
 .dd1 {
   display: flex;
+  position: relative;
 }
 
 
 
 .onlink{
+  /* position: absolute; */
+/* width: 165px; */
+height: 17px;
+/* left: 268px;
+top: 26px; */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #1C1C1C;
   transition: all .2s ease-in-out;
 }
 

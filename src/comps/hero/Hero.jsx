@@ -1,19 +1,32 @@
 import React,{useState} from "react";
-import lock from "../../assets/lock.png";
-import downarrow from "../../assets/downarrow.png";
+import locksv from "../../assets/locksv.svg";
+import dwar from "../../assets/dwar.svg";
 import "./hero.css";
-import ImageSlider, { Slide } from "react-auto-image-slider";
-import varifuser from "../../assets/varifuser.png";
-import priv from "../../assets/priv.png";
+// import ImageSlider, { Slide } from "react-auto-image-slider";
+import varifsv from "../../assets/varifsv.svg";
+import privsv from "../../assets/privsv.svg";
+import silensv from "../../assets/silensv.svg";
 import herobg from "../../assets/herobg.png";
 import cartoonhome from "../../assets/cartoonhome.png";
 import allgroup from "../../assets/allgroup.png";
 const Hero = () => {
 
   const [isShown, setIsShown] = useState(true);
+
   const handleClick = event => {
     // 👇️ toggle visibility
     setIsShown(current => !current);
+  
+    if(event==="two"){
+      document.getElementById('ri').style.background="gray"
+      document.getElementById('le').style.background="white"
+
+    }  
+    if(event==="one"){
+      document.getElementById('le').style.background="gray"
+      document.getElementById('ri').style.background="white"
+
+    }  
   };
 
 
@@ -39,14 +52,14 @@ const Hero = () => {
 
 // }
   
-  setInterval(handleClick,10000);
+  // setInterval(handleClick,9000);
 
 
   return (
     <section className="hero">
   
 <div className="contnr">
-<div style={{display: isShown ? 'block' : 'none'}} className="slide-cont ">
+<div style={{display: isShown ? 'block' : 'none'}} className="slide-cont slideee ">
   <div className="slide">
     <div className="slide-left" style={{marginRight:"22px"}}>
     <img className="roundefct" src={herobg} alt="" />
@@ -57,59 +70,60 @@ const Hero = () => {
     <div className="slide-right" >
       <div style={{marginTop:"-10%"}}>
         <h1 className="homeh1"> <b>Sexual issues are normal</b></h1>
-        <h3 className="homeh3">
+        <h3 style={{width:"50%"}} className="homeh3">
           1 out of 5 indians encouter sexual health issue in their
           lifetime
         </h3>
-        <button className="consultnow">consult now</button>
-        <img className="arrdw" src={downarrow} alt="" />
-        <img className="private " src={priv} alt="" />
+        <button className="consultnow">Consult an expert</button>
+        <img className="arrdw" src={dwar} alt="" />
+        <img className="private " src={privsv} alt="" />
       </div>
     </div>
   </div>
 </div>
-<div style={{display: isShown ? 'none' : 'block'}} className="slide-cont ">
+<div style={{display: isShown ? 'none' : 'block'}} className="slide-cont slideee">
   <div className="slide">
     <div className="slide-left">
-    <img className="roundefc" src={herobg} alt="" />
+    <img  className="roundefc" src={herobg} alt="" />
     <img className="catoonhome" src={cartoonhome} alt="" />
   
    
     </div>
     <div className="slide-right padbot">
       <div>
-        <h1 className="homeh1"><b>Sex-Ed </b>Courses for your Young ones </h1>
+        <h1 style={{width:"80%", marginBottom:"21px"}} className="homeh1"><b>Sex-Ed </b>Courses for your Young ones </h1>
         <h3 className="homeh3">
           1 out of 5 indians encouter sexual health issue in their
           lifetime
         </h3>
-        <button className="consultnow">consult now</button>
-        <img className="arrdw" src={downarrow} alt="" />
-        <img className="private " src={priv} alt="" />
+        <button style={{marginBottom:"11px",right:"28%"}}className="consultnow">Consult an expert</button>
+        <img style={{right:"26.5%",bottom:"29%"}} className="arrdw" src={dwar} alt="" />
+        <img style={{right:"31%", bottom:"27%"}} className="private " src={privsv} alt="" />
       </div>
     </div>
   </div>
 </div>
 
-<button onClick={handleClick} id="ri">{"<"}</button>
-<button onClick={handleClick} id="le"> {">"} </button>
+<button onClick={()=>handleClick('one')} id="ri"> </button>
+<button onClick={()=>handleClick('two')} id="le"> </button>
 </div>
+
 
 
       <div className="heo">
         <div className="heodown">
           <div className="heodown1">
             {" "}
-            <img src={lock} alt="" /> <span>Personalized treatment plans</span>{" "}
+            <img src={locksv} alt="" /> <span>Personalized treatment plans</span>{" "}
           </div>
           <div className="heodown2">
             {" "}
-            <img src={varifuser} alt="" />{" "}
+            <img src={varifsv} alt="" />{" "}
             <span>Backed by best sexologist from india & USA</span>{" "}
           </div>
           <div className="heodown1">
             {" "}
-            <img src={varifuser} alt="" /> <span>100% confidential</span>{" "}
+            <img src={silensv} alt="" /> <span>100% confidential</span>{" "}
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import star from "../../assets/star.png"
 import hat from "../../assets/hat.png"
 import cal from "../../assets/cal.png"
@@ -12,6 +12,55 @@ import line from "../../assets/line.png"
 
 
 const Main2 = () => {
+
+
+  const docstyle01={
+          width:'268px',
+          height:'378px'
+  }
+
+  const normal ={
+    width:'200px ',
+    height:"100px"
+  }
+
+  const[doc10,setdoc1] =useState(false)
+  const[doc12,setdoc12] =useState(false)
+  const[doc13,setdoc13] =useState(false)
+  const handleon=ev=>{
+    var element = document.getElementById("myDIV");
+ 
+    if(ev==="doc1"){
+      
+    
+      element.classList.remove("docsa3");
+    
+      setdoc1((curr)=>!curr)
+      setdoc12(false)
+      setdoc13(false)
+  
+}
+if(ev==="doc3"){
+
+  element.classList.remove("docsa3");
+
+      setdoc13((curr)=>!curr)
+      setdoc12(false)
+      setdoc1(false)
+    
+}
+if(ev==="doc2"){
+
+  element.classList.remove("docsa3");
+
+      setdoc12((curr)=>!curr)
+setdoc13(false)
+setdoc1(false)
+}
+
+
+
+  }
   return (
   <section className='main2'>
 <div className='main2-in'>
@@ -33,11 +82,11 @@ const Main2 = () => {
 
 <div className='docpics'>
    
-  <img src={doc1} alt="" />
+  <img  style={doc10 ? docstyle01:normal} className='docsa1' onClick={()=>handleon("doc1")} src={doc1} alt="" />
    
-    <img src={doc2} alt="" />
+    <img  style={doc12 ? docstyle01:normal} className='docsa2' onClick={()=>handleon("doc2")} src={doc2} alt="" />
    
-    <img src={doc3} alt="" />
+    <img style={doc13 ? docstyle01:normal} className='docsa3' id='myDIV' onClick={()=>handleon("doc3")} src={doc3} alt="" />
    
 
 

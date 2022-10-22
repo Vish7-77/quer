@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import mainlogo from "../../assets/mainlogo.svg";
 import "./head.css";
 
 import {Link} from "react-router-dom"
-import robot from "../../assets/robot.png";
+import robosv from "../../assets/robosv.svg";
 import beat from "../../assets/beat.png";
-import login from "../../assets/login.png";
+import newsv from "../../assets/newsv.svg";
 
 const Head = () => {
 
@@ -13,21 +13,22 @@ const Head = () => {
   return (
     <section className="main-head">
       <div className="in-Head">
-        <div className="left">   <Link  to="/">        <img   src={logo} alt="hello" /></Link>
+        <div className="left">   <Link  to="/">        <img   src={mainlogo} alt="hello" /></Link>
           <span className="onlink" > <Link className="links" to="/treatment" alt="m" > Sexual issue we treat </Link></span>
           <span className="onlink" >  <Link className="links" to="/doctors" alt="m" >Our sexiologist</Link></span>
           <span>Sexual Health Guide</span>
           <span>Sex-ed(for Kids)</span>
         </div>
 
-        <div className="right">
+        <div className="right01">
           <span className="dd1">
-          <img src={beat} alt="" /> 
-          <span>SHI</span>
+          <img className="zin" src={beat} alt="" /> 
+          <img className="newsv" src={newsv} alt="" /> 
+          <span className="shin">SHI</span>
           </span>
          
           <span>
-            <img src={robot} alt="" />
+            <img src={robosv} alt="" />
           </span>
           <span>
            <button className="headbtn">Login</button>
