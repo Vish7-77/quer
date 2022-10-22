@@ -18,10 +18,14 @@ const Main = () => {
     // 👇️ toggle visibility
     setIsShown(current => !current);
     if(event==="one"){
-
+   
       document.getElementById('drkbl').style.background="blue"; 
+      document.getElementById('drkbl').style.color="white"; 
+      // document.getElementById('drkbl').style.background="blue"; 
       document.getElementById('drkbl01').style.background="white"; 
+      document.getElementById('drkbl01').style.color="blue"; 
       document.getElementById('drkbl02').style.background="white"; 
+      document.getElementById('drkbl02').style.color="blue"; 
       // document.getElementById('drkbl').style.color="white"; 
       // document.getElementsByClassName('drkbl').style.color="white" ;
 
@@ -29,8 +33,11 @@ const Main = () => {
     if(event==="two"){
 
       document.getElementById('drkbl').style.background="white"; 
+      document.getElementById('drkbl').style.color="blue"; 
       document.getElementById('drkbl01').style.background="blue"; 
+      document.getElementById('drkbl01').style.color="white"; 
       document.getElementById('drkbl02').style.background="white"; 
+      document.getElementById('drkbl02').style.color="blue"; 
       // document.getElementById('drkbl').style.color="white"; 
       // document.getElementsByClassName('drkbl').style.color="white" ;
 
@@ -38,12 +45,16 @@ const Main = () => {
     if(event==="three"){
 
       document.getElementById('drkbl').style.background="white"; 
+      document.getElementById('drkbl').style.color="blue"; 
       document.getElementById('drkbl01').style.background="white"; 
+      document.getElementById('drkbl01').style.color="blue"; 
       document.getElementById('drkbl02').style.background="blue"; 
+      document.getElementById('drkbl02').style.color="white"; 
       // document.getElementById('drkbl').style.color="white"; 
       // document.getElementsByClassName('drkbl').style.color="white" ;
 
     }
+
   };
   const responsive = {
     superLargeDesktop: {
@@ -110,9 +121,9 @@ const Main = () => {
 </div>
 
 </div> */}
-                <button id="drkbl" onClick={()=>handleClick('one')} className=" uprbtn ">male</button>
-                <button id="drkbl01" onClick={()=>handleClick('two')} className=" uprbtn">female</button>
-                <button id="drkbl02" onClick={()=>handleClick('three')} className=" uprbtn">couple</button>
+                <button id="drkbl" onClick={()=>handleClick('one')} className=" uprbtn ">Male</button>
+                <button id="drkbl01" onClick={()=>handleClick('two')} className=" uprbtn">Female</button>
+                <button id="drkbl02" onClick={()=>handleClick('three')} className=" uprbtn">Couples</button>
               </div>
               <div className="upper2-2">
                 <img className="call" src={call} alt="" />
@@ -136,8 +147,17 @@ const Main = () => {
      
    <div className="cards">
    <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
+     <img src={ls} alt="" />
+   <h2 className="mainh2">Low-sex  Drive</h2>
+     <h5>
+       its defined by diificult in getting and keeping eraction
+     </h5>
+   </div>
+   </div>
+   <div className="cards">
+   <div className="maincard">
+     <img src={pm} alt="" />
+   <h2 className="mainh2"> Premature Ejaculation</h2>
      <h5>
        its defined by diificult in getting and keeping eraction
      </h5>
@@ -154,17 +174,8 @@ const Main = () => {
    </div>
    <div className="cards">
    <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
-   </div>
-   <div className="cards">
-   <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
+     <img src={ls} alt="" />
+   <h2 className="mainh2">Low-sex  Drive  </h2>
      <h5>
        its defined by diificult in getting and keeping eraction
      </h5>
@@ -188,8 +199,8 @@ const Main = () => {
       
       <div className="cards">
    <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2"> Dysfunction</h2>
+     <img src={ls} alt="" />
+   <h2 className="mainh2"> Low-Sex Drive</h2>
      <h5>
        its defined by diificult in getting and keeping eraction
      </h5>
@@ -198,8 +209,8 @@ const Main = () => {
      
    <div className="cards">
    <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
+     <img src={pm} alt="" />
+   <h2 className="mainh2">Premature Ejaculation</h2>
      <h5>
        its defined by diificult in getting and keeping eraction
      </h5>
@@ -225,8 +236,8 @@ const Main = () => {
    </div>
    <div className="cards">
    <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
+     <img src={ls} alt="" />
+   <h2 className="mainh2">Low-Sex Drive</h2>
      <h5>
        its defined by diificult in getting and keeping eraction
      </h5>
@@ -234,8 +245,8 @@ const Main = () => {
    </div>
    <div className="cards">
    <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
+     <img src={pm} alt="" />
+   <h2 className="mainh2">Premature Ejaculation</h2>
      <h5>
        its defined by diificult in getting and keeping eraction
      </h5>

@@ -34,15 +34,15 @@ const Main6 = () => {
     </div>
 </div>
 <div className="one">
-    <h1>30L+</h1>
+    <h1>3K+</h1>
     <div className='diff'><span className='norm'>People</span>
-    <span className='bldr'>Trusted</span>
+    <span className='bldr'>Educated</span>
     </div>
 </div>
 <div className="one">
-    <h1>30L+</h1>
+    <h1>87%</h1>
     <div className='diff'><span className='norm'>People</span>
-    <span className='bldr'>Trusted</span>
+    <span className='bldr'>SuccessRate</span>
     </div>
 </div>
 

@@ -12,6 +12,20 @@
   align-items: center;
 }
 
+.headbtn{
+  width: 108px;
+  height: 43px;
+  border: 1px solid #1C5BD9;  
+  color: #1C5BD9;
+  border-radius: 100px;
+  font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+
+
+
+}
+
 .in-Head {
   width: 90%;
   height: 100%;
@@ -70,4 +84,13 @@
 
 .onlink:hover{
   transform: scale(1.1);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .main-head{
+   display: none;
+
+  }
 }

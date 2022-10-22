@@ -13,22 +13,31 @@ const Main = () => {
     setshowbtn((current) => !current);
     if (event === "one") {
       document.getElementById("drkbll").style.background = "#0D5DA7";
+      document.getElementById("drkbll").style.color = "white";
       document.getElementById("drkbll01").style.background = "white";
+      document.getElementById("drkbll01").style.color = "#0D5DA7";
       document.getElementById("drkbll02").style.background = "white";
+      document.getElementById("drkbll02").style.color = "#0D5DA7";
       // document.getElementById('drkbl').style.color="white";
       // document.getElementsByClassName('drkbl').style.color="white" ;
     }
     if (event === "two") {
       document.getElementById("drkbll").style.background = "white";
+      document.getElementById("drkbll").style.color = "#0D5DA7";
       document.getElementById("drkbll01").style.background = "#0D5DA7";
+      document.getElementById("drkbll01").style.color = "white";
       document.getElementById("drkbll02").style.background = "white";
+      document.getElementById("drkbll02").style.color = "#0D5DA7";
       // document.getElementById('drkbl').style.color="white";
       // document.getElementsByClassName('drkbl').style.color="white" ;
     }
     if (event === "three") {
       document.getElementById("drkbll").style.background = "white";
+      document.getElementById("drkbll").style.color = "#0D5DA7";
       document.getElementById("drkbll01").style.background = "white";
+      document.getElementById("drkbll01").style.color = "#0D5DA7";
       document.getElementById("drkbll02").style.background = "#0D5DA7";
+      document.getElementById("drkbll02").style.color = "white";
       // document.getElementById('drkbl').style.color="white";
       // document.getElementsByClassName('drkbl').style.color="white" ;
     }

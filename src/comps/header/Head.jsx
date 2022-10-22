@@ -30,11 +30,12 @@ const Head = () => {
             <img src={robot} alt="" />
           </span>
           <span>
-            <img src={login} alt="" />
+           <button className="headbtn">Login</button>
           </span>
         </div>
       </div>
     </section>
+    
   );
 };
 

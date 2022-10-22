@@ -94,6 +94,9 @@ left: 30%;
     background: #ECEFF1;
     border-radius: 6px;
     width: 100%;
+    padding-top: 8px;
+    padding-left: 8px;
+    /* padding-bottom: px; */
     height: 5rem;
 }
 
@@ -115,10 +118,14 @@ left: 30%;
 .graybox>h3{
     font-weight: 700;
     font-size: 12px;
-    margin-left: 12px;
+    padding-left: 12px;
+    margin-bottom: 12px;
     font-family: 'Montserrat', sans-serif;  
+  
 }
 
 .graybox>span{
-    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
 }

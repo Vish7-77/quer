@@ -39,7 +39,7 @@ const Hero = () => {
 
 // }
   
-  setInterval(handleClick,6000);
+  setInterval(handleClick,10000);
 
 
   return (
@@ -48,15 +48,15 @@ const Hero = () => {
 <div className="contnr">
 <div style={{display: isShown ? 'block' : 'none'}} className="slide-cont ">
   <div className="slide">
-    <div className="slide-left">
+    <div className="slide-left" style={{marginRight:"22px"}}>
     <img className="roundefct" src={herobg} alt="" />
     <img className="alldocs" src={allgroup} alt="" />
   
    
     </div>
-    <div className="slide-right">
-      <div>
-        <h1 className="homeh1">Sexual issues are normal</h1>
+    <div className="slide-right" >
+      <div style={{marginTop:"-10%"}}>
+        <h1 className="homeh1"> <b>Sexual issues are normal</b></h1>
         <h3 className="homeh3">
           1 out of 5 indians encouter sexual health issue in their
           lifetime
