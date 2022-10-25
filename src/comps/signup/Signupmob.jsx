@@ -80,7 +80,7 @@ const Signupmob = () => {
 <div className="downdisc">
 
 
-   <ul style={{display:'flex',flexDirection:'column',height:"140px",justifyContnet:'space-evenly'}}>
+   <ul style={{display:'flex',flexDirection:'column',height:"140px",justifyContent:'space-evenly'}}>
       
        <li>Your first name is not visible to Qurex support members <a href="/" style={{textDecoration:'none'}}> but just the doctor</a> </li>
 
