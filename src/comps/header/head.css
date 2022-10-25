@@ -95,11 +95,9 @@ z-index: -1;
 
 
 .onlink{
-  /* position: absolute; */
-/* width: 165px; */
+
 height: 17px;
-/* left: 268px;
-top: 26px; */
+
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -107,7 +105,7 @@ font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 
-/* identical to box height */
+
 
 color: #1C1C1C;
   transition: all .2s ease-in-out;

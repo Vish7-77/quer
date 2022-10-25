@@ -61,7 +61,7 @@
     position: relative;
     touch-action: manipulation;
     -moz-backface-visibility: hidden;
-    /* height: 505px !important; */
+   
     top: 34px !important;
   }
 

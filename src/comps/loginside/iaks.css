@@ -5,15 +5,14 @@
     background-image: url('../../assets/loginlef.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    /* border: 2px solid #e9385a; */
+
     }
     
 
     .formspace{
-        /* height: 100vh; */
-        /* margin: auto 0; */
+     
         display: flex;
-        /* justify-content: center; */
+       
         align-items: center;
     }
 
@@ -46,7 +45,6 @@
     display: flex;
     flex-direction: column;
     padding: 25px;
-    /* justify-content: space-evenly; */
 }
 
 .mainupperlog{
@@ -90,8 +88,6 @@ text-align: left;
     color:#1C5BD9;
     height: 22px;
     width: 90px;
-    /* border-bottom: 2px solid linear-gradient( #1C5BD9 ); */
-/* margin-bottom: 12px; */
 font-family: Montserrat;
 font-size: 18px;
 font-weight: 500;
@@ -103,9 +99,7 @@ text-align: left;
     padding: 12px;
     
 
-    /* border-image-source:  */
-    
-    /* box-shadow: 0px 0px 8px 0px #0085FF66; */
+  
     
 
 }
@@ -145,7 +139,6 @@ text-align: left;
 .loginbt{
 
 margin-top: 42px;
-/* margin-bottom: 12px; */
 
     height: 53px;
 width: 350px;
@@ -164,7 +157,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 20px;
 letter-spacing: 0em;
-/* text-align: center; */
 margin-left: 52px;
 
 }
@@ -181,7 +173,6 @@ margin-left: 52px;
 .numone{
 
   font-weight: 700;
-  /* font-size: 14px; */
   text-align: center;
     height: 60px;
 width: 68.29268646240234px;
@@ -193,13 +184,11 @@ font-size: 18px;
 font-weight: 400;
 
 
-/* margin-bottom: 1; */
 
 }
 
 .numoneno{
     font-weight: 700;
-    /* font-size: 14px; */
     text-align: center;
     font-family: Montserrat;
 font-size: 18px;
@@ -211,14 +200,12 @@ font-weight: 400;
     height: 60px;
 width: 68.29268646240234px;
 border: 1px solid #CCCCCC;
-/* margin-left:22px ; */
 border-radius: 8.625px;
 
 }
 
 .loginbt01{
     margin-top: 32px;
-/* margin-bottom: 12px; */
 
     height: 43px;
 width: 300px;
@@ -226,10 +213,6 @@ width: 300px;
 border-radius: 100px;
 background: #1C5BD9;
 border-radius: 100px;
-    /* position: absolute; */
-
-/* left: 991px; */
-/* top: 526px; */
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -237,7 +220,6 @@ font-weight: 700;
 font-size: 14px;
 line-height: 17px;
 
-/* identical to box height */
 
 color: #FFFFFF;
 }
@@ -257,7 +239,6 @@ line-height: 18px;
 letter-spacing: 0em;
 color: #1C5BD9;
 text-decoration: none;
-/* text-align: right; */
 
 }
 
@@ -313,10 +294,10 @@ text-decoration: none;
 .disc15{
 
     position: absolute;
-    /* bottom: -60%px; */
+    
     right: 7%;
     padding: 18px;
-    /* margin-bottom: 5px; */
+    
     height: 200px;
     width: 450px;
     background: rgba(241, 241, 255, 1);
@@ -331,7 +312,7 @@ text-decoration: none;
     font-family: 'Montserrat';
 font-size: 16px;
 font-weight: 600;margin-left: 12px;
-/* margin-top: 9px; */
+
 color: #333333;
 
 }
@@ -343,25 +324,21 @@ color: #333333;
 .downdisc>ul{
 list-style:circle;
 fill: black;
-/* line-height: 32px; */
+
 }
 .downdisc>ul>li{
   
-    /* width: 549px; */
+    
     height: 17px;
     left: 798px;
-    /* margin-top: 12px; */
+    
     top: 708px;
-      /* margin-top: 5px ; */
+      
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    /* font-size: 14px; */
-    /* line-height: 39px; */
-    
-    /* identical to box height */
-    /* text-align: center; */
+   
     
     color: #1C1C1C;
 }
@@ -405,7 +382,7 @@ width: 100vw;
 
 .in-formsi{
     height: 80%;
-    /* position: absolute; */
+
     top: 22px;
     display: flex;
     flex-direction: column;
