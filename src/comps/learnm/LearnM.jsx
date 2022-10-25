@@ -1,23 +1,29 @@
-import React from "react";
+import React,{useEffect} from "react";
 import search from "../../assets/search.png";
 import arr from "../../assets/arr.png";
 import virus from "../../assets/virus.png";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./lm.css";
 const LearnM = () => {
+
+
+
+
+
   return (
     <section className="learnm">
       <div className="upperlm">
         <h1> learn more about your condition </h1>
       </div>
       <div className="lowerlm">
-        <Carousel style={{marginTop:"0px"}}>
-          <div className="sl1">
-            <div className="sl001">
+      <OwlCarousel className=" owl-theme "  items={2} margin={10} nav>
+         
+            <div className="sl0010" >
               <img
                 className="sl001img"
-                style={{ width: "32px", height: "32px" }}
+                style={{ width: "32px", height: "32px",matginTop:'-20px' }}
                 src={search}
                 alt=""
               />
@@ -29,7 +35,7 @@ const LearnM = () => {
                 spiral cord or radiation therpy can disrupt or harm nerve
                 present in the penis{" "}
               </span>
-              <div className="lastcause">
+              <div className="lastcause" >
                 <span>Learn more</span>
                 <img
                   className="arr"
@@ -61,7 +67,7 @@ const LearnM = () => {
                   </li>
                 </ul>{" "}
               </span>
-              <div className="lastcause">
+              <div className="lastcause" >
                 <span>Learn more</span>
                 <img
                   className="arr"
@@ -71,9 +77,7 @@ const LearnM = () => {
                 />
               </div>
             </div>
-          </div>
-          <div className="sl1">
-          <div className="sl001">
+            <div className="sl001">
               <img
                 className="sl001img"
                 style={{ width: "32px", height: "32px" }}
@@ -104,33 +108,9 @@ const LearnM = () => {
                 />
               </div>
             </div>
-            <div className="sl001">
-              <img
-                className="sl001img"
-                style={{ width: "32px", height: "32px" }}
-                src={search}
-                alt=""
-              />
-              <h1>Causes</h1>
-              <span>
-                Health conditions are peripheral aerty disease atherosclerious,
-                diabities,hypertenous, obsecity, etc. can cause reduced blood
-                flowto penis due to artey narrowing, Furthermore injury to the
-                spiral cord or radiation therpy can disrupt or harm nerve
-                present in the penis{" "}
-              </span>
-              <div className="lastcause">
-                <span>Learn more</span>
-                <img
-                  className="arr"
-                  style={{ width: "16px", height: "16px" }}
-                  src={arr}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </Carousel>
+      
+     
+          </OwlCarousel  >
       </div>
       <div className="custsat">
      <div className="mainincust">

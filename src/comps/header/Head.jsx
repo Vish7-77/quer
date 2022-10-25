@@ -11,12 +11,12 @@ const Head = () => {
 
 
   return (
-    <section className="main-head">
+    <section className="main-head" id="header">
       <div className="in-Head">
         <div className="left">   <Link  to="/">        <img   src={mainlogo} alt="hello" /></Link>
           <span className="onlink" > <Link className="links" to="/treatment" alt="m" > Sexual issue we treat </Link></span>
-          <span className="onlink" >  <Link className="links" to="/doctors" alt="m" >Our sexiologist</Link></span>
-          <span>Sexual Health Guide</span>
+          <span className="onlink" >  <Link className="links" to="/doctor" alt="m" >Our sexiologist</Link></span>
+          <span><Link className="links" to="/doctors" alt="m" >Sexual Health Guide</Link></span>
           <span>Sex-ed(for Kids)</span>
         </div>
 
@@ -31,10 +31,11 @@ const Head = () => {
             <img src={robosv} alt="" />
           </span>
           <span>
-           <button className="headbtn">Login</button>
+           <button  className="headbtn"><Link className="links" to="/login" alt="m" >Login</Link></button>
           </span>
         </div>
       </div>
+
     </section>
     
   );

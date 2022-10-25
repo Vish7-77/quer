@@ -15,7 +15,7 @@ import {AiFillYoutube} from "react-icons/ai"
 
 const Footer = () => {
   return (
-   <section className='footer'>
+   <section className='footer' id="footer">
    <div className="leftfoot">
       <div> <h2>Discreetly consult top doctors for any sexual health issue</h2></div>
 <img className='f01' src={footer01} alt="" />

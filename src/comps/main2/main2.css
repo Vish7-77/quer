@@ -23,6 +23,7 @@
 
 .uppermain2-in{
     display: flex;
+    margin-bottom: 24px;
     justify-content: space-between;
 
 }
@@ -30,7 +31,7 @@
 .lowermain2-in{
    display: flex;
    position: relative;
-    width: 80%;
+    /* width: 80%; */
   
 
 }
@@ -58,8 +59,10 @@
 .docpics{
 
     display: flex;
-    margin-left: -70px;
-    align-items: baseline;
+    /* margin-left: -70px; */
+    /* align-items: flex-start; */
+    align-items: flex-end;
+    height: 86%;
 
     
 }
@@ -87,15 +90,20 @@ margin:2px ;
     font-size: 12px;
 
 }
+
+
+.dnn{
+    display: none !important;
+}
 .aboutdoc{
     border-top:1px solid gray ;
     border-bottom:1px solid gray ;
-    justify-content: space-evenly;
-    display: flex;
-    height: 80vh;
-    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* display: flex; */
+    height: 75vh;
+    /* flex-direction: column; */
     position: relative;
-left: 30%;
+left: 6%;
 }
 
 .spa{
@@ -103,6 +111,7 @@ left: 30%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
     display: flex;
+    margin-top: 30px;
     
 
 }
@@ -115,15 +124,17 @@ left: 30%;
     background: #ECEFF1;
     border-radius: 6px;
     width: 100%;
-    padding-top: 8px;
+    padding-top: 26px;
+    margin-top: 40px;
     padding-left: 8px;
     /* padding-bottom: px; */
-    height: 5rem;
+    height: 127px;
 }
 
 .aboutdoc>h1{
     font-weight: 700;
     font-size: 22px;
+    margin-top: 18px;
     font-family: 'Montserrat', sans-serif;     
 }
 .lef{
@@ -133,7 +144,7 @@ left: 30%;
 .lineup{
     position: absolute;
     bottom: 22px;
-    left: 30%;
+    left: 18%;
 }
 
 .graybox>h3{

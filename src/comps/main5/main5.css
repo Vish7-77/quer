@@ -15,6 +15,11 @@
 
 }
 
+#drkbll{
+  background: #1C5BD9;
+color: white;
+}
+
 
 .cardo-grid{
     display: grid;
@@ -33,6 +38,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
   align-items: center;
   position: relative;
   transform-style: preserve-3d;
@@ -69,7 +75,7 @@
     font-family: Montserrat;
     font-size: 14px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
@@ -81,6 +87,7 @@
     display: block;
     height: 6px;
     border-radius: 12px;
+    margin-left: 25px;
     background-color: blue;
     width: 20px;
     /* position: absolute; */
@@ -91,7 +98,8 @@ font-size: 20px;
 font-weight: 700;
 line-height: 30px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
+width: 200px;
 
   }
   
@@ -183,6 +191,44 @@ justify-content: center;
     
   
   
+
+    .cross{
+position: absolute;
+bottom:-70px;
+font-weight: 700;
+font-size: 22px;
+border: 2px solid rgb(101, 97, 97);
+width: 39px;
+border-radius: 100px;
+transition:   .4s ;
+right:10px;
+
+    }
+
+    .cross:hover{
+      transform: scale(1.1);
+      background-color: rgba(71, 65, 65, 0.336);
+    }
+
+    .cross01{
+      position: absolute;
+      bottom:-30px;
+      font-weight: 700;
+      font-size: 22px;
+      border: 2px solid black;
+      width: 39px;
+      transition:   .4s ;
+      border-radius: 100px;
+      
+      right:10px;
+      
+          }
+
+
+          .cross01:hover{
+            background-color: #30313220;
+            transform: scale(1.1);
+          }
     
     
     .cardo01.front{

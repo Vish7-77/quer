@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import locksv from "../../assets/locksv.svg";
 import dwar from "../../assets/dwar.svg";
 import "./hero.css";
@@ -10,6 +10,15 @@ import herobg from "../../assets/herobg.png";
 import cartoonhome from "../../assets/cartoonhome.png";
 import allgroup from "../../assets/allgroup.png";
 const Hero = () => {
+  const Func01=()=>{
+    document.getElementById("header").style.display="flex"
+    document.getElementById("footer").style.display="flex"
+  }
+     
+  useEffect(() => {
+   Func01()
+  })
+  
 
   const [isShown, setIsShown] = useState(true);
 

@@ -41,13 +41,15 @@ width: 80%;
 }
 
 
-.childprn{
+.childprn {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     margin-left: 15px;
     align-items: center;
-    
-}
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+  }
 .childprn>img{
     width: 13px;
     height: 13px;
@@ -56,35 +58,38 @@ width: 80%;
 
 }
 
-.cardmain4>h3{
+.ca{
   
-    font-size: 18px;
+    font-size: 13px !important;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-  margin-left: 15px;
+    font-weight: 400 !important;
+    margin-left: 15px;
+    padding: 3px;
 
 }
 
 .childprn01{
-    margin-left: 15px;
-    font-size: 14px;
+    margin-left: 13px !important;
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 300 !important;
     width: 400px;
-
+    padding: 4px;
+      
 }
 
 .childprn02{
-    margin-left: 15px;
+    margin-left: 12px;
     display: flex;
     text-align: center;
+     font-family: 'Montserrat', sans-serif;
     width: 380px;
     justify-content: space-between;
 }
 
 .author {
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+   
     font-weight: 300;
   }
 .reader{

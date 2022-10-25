@@ -21,11 +21,12 @@ const OurDoc = () => {
             <div className="grydoc001">
               <h1>Dr. Uma Devi</h1>
               <span className="ingrydoc">
-                <img style={{width:"30px",height:"20px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
+                <img style={{width:"24px",height:"16px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
               </span>
             </div>
+            <div style={{width:'22px',height:"22px"}}></div>
           </div>
-          <div>
+          <div className="ert">
             <span  className="docinfo01">
               Specialised in <b> Sexual & Relationship Psychotherapy</b>
             </span>
@@ -55,11 +56,12 @@ const OurDoc = () => {
             <div className="grydoc001">
               <h1>Dr. Uma Devi</h1>
               <span className="ingrydoc">
-                <img style={{width:"30px",height:"20px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
+                <img style={{width:"24px",height:"16px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
               </span>
             </div>
+            <div style={{width:'22px',height:"22px"}}></div>
           </div>
-          <div>
+          <div className="ert">
             <span  className="docinfo01">
               Specialised in <b> Sexual & Relationship Psychotherapy</b>
             </span>
@@ -92,11 +94,13 @@ const OurDoc = () => {
             <div className="grydoc001">
               <h1>Dr. Uma Devi</h1>
               <span className="ingrydoc">
-                <img style={{width:"30px",height:"20px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
+                <img style={{width:"24px",height:"16px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
               </span>
+           
             </div>
+            <div style={{width:'22px',height:"22px"}}></div>
           </div>
-          <div>
+          <div className="ert">
             <span  className="docinfo01">
               Specialised in <b> Sexual & Relationship Psychotherapy</b>
             </span>
@@ -126,11 +130,12 @@ const OurDoc = () => {
             <div className="grydoc001">
               <h1>Dr. Uma Devi</h1>
               <span className="ingrydoc">
-                <img style={{width:"30px",height:"20px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
+                <img style={{width:"24px",height:"16px"}}  src={hat} alt="" /> <h2 style={{marginTop:"4px"}}>MBBS, MD (Psychiatry)</h2>
               </span>
             </div>
+            <div style={{width:'22px',height:"22px"}}></div>
           </div>
-          <div>
+          <div className="ert">
             <span  className="docinfo01">
               Specialised in <b> Sexual & Relationship Psychotherapy</b>
             </span>

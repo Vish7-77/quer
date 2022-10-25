@@ -29,10 +29,14 @@ const Main2 = () => {
   const[doc13,setdoc13] =useState(false)
   const handleon=ev=>{
     var element = document.getElementById("myDIV");
+    var dd0122 = document.getElementById("lio");
+    var dd01222 = document.getElementById("lio01");
+    
  
     if(ev==="doc1"){
       
-    
+         dd0122.classList.remove('dnn')
+         dd01222.classList.remove('dnn')
       element.classList.remove("docsa3");
     
       setdoc1((curr)=>!curr)
@@ -43,14 +47,16 @@ const Main2 = () => {
 if(ev==="doc3"){
 
   element.classList.remove("docsa3");
-
+  dd0122.classList.remove('dnn')
+  dd01222.classList.remove('dnn')
       setdoc13((curr)=>!curr)
       setdoc12(false)
       setdoc1(false)
     
 }
 if(ev==="doc2"){
-
+  dd0122.classList.remove('dnn')
+  dd01222.classList.remove('dnn')
   element.classList.remove("docsa3");
 
       setdoc12((curr)=>!curr)
@@ -92,7 +98,43 @@ setdoc1(false)
 
 </div>
 <img className='lineup' src={line} alt=""/>
-<div className='aboutdoc'>
+<div id="lio" className='aboutdoc dnn' style={{display: doc12 || doc10 ? 'none':'block'}}>
+<h1 > Dr.Saravanan02</h1>
+<span className='spa' > <img src={star} alt=""/>Specialised in Sexual & Relationship Psychotherapy</span>
+<span className='spa'> <img className='lef' src={hat} alt=""/>MBBS , MD(psychiatry)</span>
+<span className='spa'> <img src={globe} alt=""/>Language Know English,Tamil,Hindi</span>
+<span className='spa'> <img src={cal} alt=""/>8+ years of Experiance</span>
+
+<div className="graybox">
+<span className=' decr'>"Sexual  Health in india  is commonly neglected and medical for intemacy and realtiionship issues sought very late </span>
+
+<h3>Dr. Saravanan</h3>
+
+</div>
+
+
+
+
+</div>
+<div id="lio01" className='aboutdoc dnn' style={{display: doc10 || doc13 ? 'none':'block'}}>
+<h1 > Dr.Saravanan01</h1>
+<span className='spa' > <img src={star} alt=""/>Specialised in Sexual & Relationship Psychotherapy</span>
+<span className='spa'> <img className='lef' src={hat} alt=""/>MBBS , MD(psychiatry)</span>
+<span className='spa'> <img src={globe} alt=""/>Language Know English,Tamil,Hindi</span>
+<span className='spa'> <img src={cal} alt=""/>8+ years of Experiance</span>
+
+<div className="graybox">
+<span className=' decr'>"Sexual  Health in india  is commonly neglected and medical for intemacy and realtiionship issues sought very late </span>
+
+<h3>Dr. Saravanan</h3>
+
+</div>
+
+
+
+
+</div>
+<div className='aboutdoc' style={{display: doc13 ||doc12 ? 'none':'block'}}>
 <h1 > Dr.Saravanan</h1>
 <span className='spa' > <img src={star} alt=""/>Specialised in Sexual & Relationship Psychotherapy</span>
 <span className='spa'> <img className='lef' src={hat} alt=""/>MBBS , MD(psychiatry)</span>

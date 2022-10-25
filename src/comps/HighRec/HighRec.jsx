@@ -1,7 +1,8 @@
 import React from 'react'
 import "./hr.css"
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import erc from "../../assets/erc.png"
 import ls from "../../assets/ls.png"
 import pm from "../../assets/pm.png"
@@ -32,69 +33,51 @@ const HighRec = () => {
 <h1>Highly Recommended For</h1>
 
  </div>
- <Carousel responsive={responsive}>
+ <OwlCarousel   className="owl-theme"  margin={10} nav>
+        <div className="cards">
+            <div className="maincard">
+              <img src={ls} alt="" />
+              <h2 className="mainh2"> Low-Sex Drive</h2>
+              <h5>its defined by diificult in getting and keeping eraction</h5>
+            </div>
+          </div>
 
-<div className="cardhighrec">
-<img src={erc} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-</div>
-<div className="cardhighrec">
-<img src={ls} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-</div>
-<div className="cardhighrec">
-<img src={pm} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-
-
-
- </div>
- <div className="cardhighrec">
-<img src={erc} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-
-
-
- </div>
- <div className="cardhighrec">
-<img src={erc} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-
-
-
- </div>
- <div className="cardhighrec">
-<img src={ls} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-
-
-
- </div>
- <div className="cardhighrec">
-<img src={pm} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-
-
-
- </div>
-
- <div className="cardhighrec">
-<img src={ls} alt="" />
-<h2>Erectile Dysfunction</h2>
-<span>It is defined by difficulty getting and keeping an erection.</span>
-
-
-
- </div>
-
- </Carousel>
+          <div className="cards">
+            <div className="maincard">
+              <img src={pm} alt="" />
+              <h2 className="mainh2">Premature Ejaculation</h2>
+              <h5>its defined by diificult in getting and keeping eraction</h5>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="maincard">
+              <img src={erc} alt="" />
+              <h2 className="mainh2">Eractile Dysfunction</h2>
+              <h5>its defined by diificult in getting and keeping eraction</h5>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="maincard">
+              <img src={erc} alt="" />
+              <h2 className="mainh2">Eractile Dysfunction</h2>
+              <h5>its defined by diificult in getting and keeping eraction</h5>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="maincard">
+              <img src={ls} alt="" />
+              <h2 className="mainh2">Low-Sex Drive</h2>
+              <h5>its defined by diificult in getting and keeping eraction</h5>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="maincard">
+              <img src={pm} alt="" />
+              <h2 className="mainh2">Premature Ejaculation</h2>
+              <h5>its defined by diificult in getting and keeping eraction</h5>
+            </div>
+          </div>
+        </OwlCarousel>
 
 
 

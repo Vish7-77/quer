@@ -2,8 +2,11 @@ import React from 'react'
 import "./main6.css"
 import dbqu from "../../assets/dbqu.png"
 import client01 from "../../assets/client01.png"
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 const Main6 = () => {
     const responsive = {
         superLargeDesktop: {
@@ -25,7 +28,7 @@ const Main6 = () => {
         }
       };
   return (
-  <section className="main6">
+  <section className="main6"  style={{marginTop:'10%'}}>
  <div className="calc">
 <div className="one">
     <h1>30L+</h1>
@@ -58,23 +61,8 @@ const Main6 = () => {
 
 
 
-<Carousel responsive={responsive}>
-<div className="feed01">
-      <img src={dbqu} alt=""/>
+<OwlCarousel   className="owl-theme" margin={10} items={2} nav>
 
-<h3> Very Helpful</h3>
-<span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
-<div className='gryline'></div>
-<div className='clientdet'>
-
-    <img src={client01} alt="" />
-   <div>
-   <h1>indujha</h1>
-    <h2>chennai</h2>
-   </div>
-</div>
-
-    </div>
 
     <div className="feed01">
       <img src={dbqu} alt=""/>
@@ -84,7 +72,7 @@ const Main6 = () => {
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img src={client01} alt="" />
+    <img className='induja' src={client01} alt="" />
    <div>
    <h1>indujha</h1>
     <h2>chennai</h2>
@@ -95,12 +83,12 @@ const Main6 = () => {
     <div className="feed01">
       <img src={dbqu} alt=""/>
 
-<h3> Very Helpful</h3>
+<h3> Feel better</h3>
 <span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img src={client01} alt="" />
+    <img className='induja'src={client01} alt="" />
    <div>
    <h1>indujha</h1>
     <h2>chennai</h2>
@@ -111,12 +99,12 @@ const Main6 = () => {
     <div className="feed01">
       <img src={dbqu} alt=""/>
 
-<h3> Very Helpful</h3>
+<h3> </h3>
 <span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img src={client01} alt="" />
+    <img className='induja'src={client01} alt="" />
    <div>
    <h1>indujha</h1>
     <h2>chennai</h2>
@@ -132,23 +120,7 @@ const Main6 = () => {
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img src={client01} alt="" />
-   <div>
-   <h1>indujha</h1>
-    <h2>chennai</h2>
-   </div>
-</div>
-
-    </div>
-    <div className="feed01">
-      <img src={dbqu} alt=""/>
-
-<h3> Very Helpful</h3>
-<span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
-<div className='gryline'></div>
-<div className='clientdet'>
-
-    <img src={client01} alt="" />
+    <img className='induja'src={client01} alt="" />
    <div>
    <h1>indujha</h1>
     <h2>chennai</h2>
@@ -157,8 +129,7 @@ const Main6 = () => {
 
     </div>
 
-
-    </Carousel>
+    </OwlCarousel>
     
 
 

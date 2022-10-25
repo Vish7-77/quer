@@ -74,7 +74,7 @@ const Main = () => {
                 <button
                   id="drkbll"
                   onClick={() => handleClick("one")}
-                  className=" upbt"
+                  className=" upbt "
                 >
                   male
                 </button>
@@ -123,19 +123,23 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+              <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: isShown ? "block" : "none" }}>
+            <div style={{ display: isShown ? "block" : "none",marginTop:"-20%" }}>
               <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+              <h1 className="h111">what is sexology?</h1>
+              <button className="cross">
+                +
+              </button>
+              
             </div>
 
             <span className="back" onClick={() => setflip(!flip)}>
@@ -159,19 +163,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+                <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: non ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: non ? "block" : "none",marginTop:"-20%" }}>
+            <span className="bll"></span>
+              <h1 className="h111">Can I give my baby fruit and vegetables during weaning?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             {/* <span className="back" onClick={() => setflip(!flip)}>
@@ -195,19 +202,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+              <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: non01 ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: non01 ? "block" : "none",marginTop:"-20%" }}>
+            <span className="bll"></span>
+              <h1 className="h111">Do potatoes count as one of my 5 A Day?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             {/* <span className="back" onClick={() => setflip(!flip)}>
@@ -231,19 +241,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+               <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: non02 ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: non02 ? "block" : "none",marginTop:"-20%" }}>
+            <span className="bll"></span>
+              <h1 className="h111">Can I just eat five portions of my favourite fruit or vegetable?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             {/* <span className="back" onClick={() => setflip(!flip)}>
@@ -288,19 +301,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+              <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: isShown ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111"> is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: isShown ? "block" : "none",marginTop:"-20%" }}>
+            <span className="bll"></span>
+              <h1 className="h111">Can I just eat five portions of my favourite fruit or vegetable?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             <span className="back" onClick={() => setflip(!flip)}>
@@ -324,19 +340,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+               <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: non ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: non ? "block" : "none",marginTop:"-20%" }}>
+            <span className="bll"></span>
+              <h1 className="h111">Can I give my baby fruit and vegetables during weaning?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             {/* <span className="back" onClick={() => setflip(!flip)}>
@@ -360,19 +379,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+               <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: non01 ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: non01 ? "block" : "none",marginTop:"-20%"}}>
+            <span className="bll"></span>
+              <h1 className="h111">Do potatoes count as one of my 5 A Day?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             {/* <span className="back" onClick={() => setflip(!flip)}>
@@ -396,19 +418,22 @@ const Main = () => {
                 transform: "rotateY(180deg)",
               }}
             >
-              <span className="bll"></span>
+              <span style={{marginLeft:"2px"}} className="bll"></span>
+              <h1 style={{textAlign:"left" , fontSize:"20px",fontWeight:'700'}} className="h111">what is sexology?</h1>
               <h3 className="fulldet">
                 Our experience in deploying healthcare chabots give us an edge
                 in understanding industry specific challenges.
               </h3>
+              <button className="cross01">
+                X
+              </button>
             </div>
-            <div style={{ display: non02 ? "block" : "none" }}>
-              <span className="bll"></span>
-              <h1 className="h111">what is sexology</h1>
-              <h3 className="h010">
-                Our experience in deploying healthcare chabots give us an edge
-                in understanding industry specific challenges.
-              </h3>
+            <div style={{ display: non02 ? "block" : "none",marginTop:"-20%" }}>
+            <span className="bll"></span>
+              <h1 className="h111">what is sexology?</h1>
+              <button className="cross">
+                +
+              </button>
             </div>
 
             {/* <span className="back" onClick={() => setflip(!flip)}>
