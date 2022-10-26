@@ -79,7 +79,7 @@ const Hero = () => {
     <div className="slide-right" >
       <div style={{marginTop:"-10%"}}>
         <h1 className="homeh1"> <b>Sexual issues are normal</b></h1>
-        <h3 style={{width:"50%"}} className="homeh3">
+        <h3 style={{}} className="homeh3">
           1 out of 5 indians encouter sexual health issue in their
           lifetime
         </h3>

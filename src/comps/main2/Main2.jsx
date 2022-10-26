@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import star from "../../assets/star.png"
 import hat from "../../assets/hat.png"
+import mobsidescroll from "../../assets/mobsidescroll.svg"
 import cal from "../../assets/cal.png"
+import Gynecologist from "../../assets/Gynecologist.jpg"
 import globe from "../../assets/globe.png"
 import doc1 from "../../assets/doc1.png"
 import doc2 from "../../assets/doc2.png"
@@ -83,6 +85,23 @@ setdoc1(false)
         View All Doctors
     </button>
 </div>
+</div>
+<div className="mobdocs">
+<img className="mobdoc01" src={Gynecologist} alt="" />
+<img className='scrollsidemob' src={mobsidescroll} alt="" />
+<div className='docsinfomob'>
+  <h1>Dr. Saravanan</h1>
+  <div><img src={cal} alt="" /> <h3>8+ years of experience</h3></div>
+  <div><img src={globe} alt="" /> <h3>Language known English, Tamil, Hindi</h3></div>
+  <div><img src={hat} alt="" /> <h3>MBBS, MD (Psychiatry)</h3></div>
+  <div><img src={cal} alt="" /> <h3>Available on chat, live, and voice</h3></div>
+
+
+
+
+
+</div>
+
 </div>
 <div className="lowermain2-in">
 

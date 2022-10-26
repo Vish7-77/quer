@@ -4,9 +4,9 @@ import erc from "../../assets/erc.png";
 import ls from "../../assets/ls.png";
 import call from "../../assets/call.png";
 import pm from "../../assets/pm.png";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+  import OwlCarousel from "react-owl-carousel";
+  import "owl.carousel/dist/assets/owl.carousel.css";
+  import "owl.carousel/dist/assets/owl.theme.default.css";
 import ma from "../../assets/ma.png";
 // import Carousel from "react-multi-carousel";
 // import "react-multi-carousel/lib/styles.css";
@@ -150,67 +150,64 @@ const Main = () => {
         </div>
       </section>
       <div className="sec10" style={{ display: isShown ? "none" : "block" }}>
-        {/* <Carousel responsive={responsive} >
-      
-      <div className="cards">
-   <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
-   </div>
-     
-   <div className="cards">
-   <div className="maincard">
-     <img src={ls} alt="" />
-   <h2 className="mainh2">Low-sex  Drive</h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
-   </div>
-   <div className="cards">
-   <div className="maincard">
-     <img src={pm} alt="" />
-   <h2 className="mainh2"> Premature Ejaculation</h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
-   </div>
-   <div className="cards">
-   <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
-   </div>
-   <div className="cards">
-   <div className="maincard">
-     <img src={ls} alt="" />
-   <h2 className="mainh2">Low-sex  Drive  </h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
-   </div>
-   <div className="cards">
-   <div className="maincard">
-     <img src={erc} alt="" />
-   <h2 className="mainh2">Eractile Dysfunction</h2>
-     <h5>
-       its defined by diificult in getting and keeping eraction
-     </h5>
-   </div>
+       
+
+<OwlCarousel className=" mobowl owl-theme" items={1.5} margin={50} nav>
+
+<div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
    </div>
 
 
-        </Carousel> */}
-        <OwlCarousel  style={{marginTop:"20%"}} className="owl-theme" loop margin={10} nav>
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+
+
+
+
+
+</OwlCarousel>
+
+
+        <OwlCarousel  style={{marginTop:"20%"}} className="mobno owl-theme" loop margin={10} nav>
         <div className="cards">
             <div className="maincard">
               <img src={ls} alt="" />
@@ -218,6 +215,8 @@ const Main = () => {
               <h5>its defined by diificult in getting and keeping eraction</h5>
             </div>
           </div>
+
+  
 
           <div className="cards">
             <div className="maincard">
@@ -254,12 +253,70 @@ const Main = () => {
               <h5>its defined by diificult in getting and keeping eraction</h5>
             </div>
           </div>
+
+
+
+          
         </OwlCarousel>
         
       </div>
       <div className="sec10" style={{ display: isShown ? "block" : "none" }}>
-      <OwlCarousel  style={{marginTop:"20%"}} className="owl-theme" loop margin={10} nav>
-      
+              
+      <OwlCarousel className="mobowl owl-theme" items={1.5} margin={50} nav>
+
+<div className="mobcards">
+   <div className="mobincards">
+<img  src={pm} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={erc} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+          <div className="mobcards">
+   <div className="mobincards">
+<img  src={ls} alt="" />
+<h2 className="mobcardsh2"> Low-Sex Drive</h2>
+<h5>its defined by diificult in getting and keeping eraction</h5>
+   </div>
+
+
+          </div>
+
+
+
+
+
+</OwlCarousel>
+
+      <OwlCarousel  style={{marginTop:"20%"}} className="mobno owl-theme" loop margin={10} nav>
 
           <div className="cards">
             <div className="maincard">

@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 
 .main-head {
- position: sticky;
- top:0;
- z-index: 9999;
+ position: sticky  !important;
+ top: 0 !important;;
+ z-index: 9999 !important;
   background-color: #fff;
   height: 13vh;
-  display: flex;
+  /* display: flex; */
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .headbtn{
@@ -29,7 +29,7 @@ font-weight: 700;
 .in-Head {
   width: 90%;
   height: 100%;
-
+margin: 0 auto;
   display: flex;
   align-items: center;
 
@@ -116,10 +116,21 @@ color: #1C1C1C;
 }
 
 
+.hamburgmenu{
+  display: none;
+  width: 100%;
+background-color: rgb(255, 255, 255);
+  height: 300px;
+  position: absolute;
+  top: 76px;
+animation: slidedown 0.5s ease-in ;
 
-@media only screen and (max-width: 600px) {
-  .main-head{
-   display: none;
+}
 
+@keyframes slidedown {
+  0%{
+     transform: translateY(-5px);
+    opacity: 0;
   }
+  
 }

@@ -529,12 +529,3 @@ body{
 }
 
 
-@media only screen and (max-width: 600px) {
-  .main-01 ,.sec10{
-   display: none;
-
-  }
-  .sec10{
-    display: none;
-  }
-}

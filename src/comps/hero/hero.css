@@ -220,6 +220,7 @@ body {
 .homeh3 {
   font-family: Montserrat;
   font-size: 18px;
+  width:50%;
   font-weight: 400;
   width: 60%;
   margin-left: 20%;
@@ -329,9 +330,3 @@ bottom: 18%;
 
 
 
-@media only screen and (max-width: 600px) {
-  .hero{
-   display: none;
-
-  }
-}

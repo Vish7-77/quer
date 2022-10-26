@@ -61,7 +61,7 @@ const Main6 = () => {
 
 
 
-<OwlCarousel   className="owl-theme" margin={10} items={2} nav>
+<OwlCarousel    className="owl-theme ddf" margin={10} items={2} nav>
 
 
     <div className="feed01">
