@@ -114,6 +114,8 @@ text-align: left;
 
   }
   .cardo .front{
+    top: 25%;
+left: 10%;
     position: absolute;
     backface-visibility: hidden;
   }
@@ -259,4 +261,12 @@ right:10px;
     text-align: center;
     border:2px solid rgb(97, 97, 97);
     border-radius: 150px;
+}
+
+@media only  screen and (max-wdth:600pc)  {
+  
+
+  .cardo.flip{
+    --rotate-Y:0deg !important;
+  }
 }

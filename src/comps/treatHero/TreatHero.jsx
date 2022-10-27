@@ -1,5 +1,9 @@
 import React,{useState} from "react";
 import "./th.css";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
 import trtmnt01  from "../../assets/trtmnt01.png"
 import call from "../../assets/call.png"
 import handstouch from "../../assets/handstouch.png"
@@ -16,19 +20,48 @@ const TreatHero = () => {
       <div className="th02">
 <div className="incontent">
 <div className="leftcontent">
-<div className="cont0001">
+
+
+<OwlCarousel className="mobowl owl-theme" items={4} margin={10} nav>
+  
+<div className=" cont0001">
     <h1>
         49%
     </h1>
     <span>men over the age of 40 experiance eractile dysfunction </span>
 </div>
-<div className="cont0001">
+<div className=" cont0001">
     <h1>
         97%
     </h1>
     <span>men over the age of 40 experiance eractile dysfunction </span>
 </div>
-<div className="cont0001">
+<div className=" cont0001">
+    <h1>
+        51%
+    </h1>
+    <span>men over the age of 40 experiance eractile dysfunction </span>
+</div>
+  
+  
+  
+    </OwlCarousel>
+
+
+
+<div className="mobno cont0001">
+    <h1>
+        49%
+    </h1>
+    <span>men over the age of 40 experiance eractile dysfunction </span>
+</div>
+<div className="mobno cont0001">
+    <h1>
+        97%
+    </h1>
+    <span>men over the age of 40 experiance eractile dysfunction </span>
+</div>
+<div className="mobno cont0001">
     <h1>
         51%
     </h1>

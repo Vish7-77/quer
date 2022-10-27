@@ -1,13 +1,37 @@
-import React from 'react'
-import "./trtmain6.css"
+import React,{useEffect} from 'react'
+// import "./trtmain6.css"
 import dbqu from "../../assets/dbqu.png"
 import client01 from "../../assets/client01.png"
-import Carousel from "react-multi-carousel";
+// import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-const Main6 = () => {
+const Docsfoot = () => {
+
+ const  showfoot=()=>{
+document.getElementById('footer').style.display="none"
+
+
+
+
+
+
+
+
+
+
+}
+
+    useEffect(() => {
+        showfoot()
+    },[])
+    
+
+
+
+
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -28,7 +52,7 @@ const Main6 = () => {
     }
   };
   return (
-  <section className="main6" style={{marginBottom:"-10%"}}>
+  <section className="margin20p main6" >
 
 <section className='feedback'>
 <div className="upperfeed">
@@ -298,4 +322,4 @@ const Main6 = () => {
   )
 }
 
-export default Main6
+export default Docsfoot

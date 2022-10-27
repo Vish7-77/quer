@@ -27,7 +27,7 @@ const HighRec = () => {
         }
       };
   return (
-   <section className="highrec">
+   <section className="mobno highrec">
 <div className="innerhighrec">
  <div className="upperinnerhr">
 <h1>Highly Recommended For</h1>

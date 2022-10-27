@@ -42,8 +42,11 @@ setisham((crr)=>!crr)
           </span>
         </div>
       </div>
-<div className="hamburgmenu" style={{display:isham ?'none':'block'}}>
-
+<div className="hamburgmenu" style={{display:isham ?'none':'flex'}}>
+<Link className="hamlinks" to="/treatment">Sexual issue we treat</Link>
+<Link className="hamlinks" to="/doctor">Our sexiologist</Link>
+<Link className="hamlinks" to="/">Sexual Health Guide</Link>
+<button  className=" headbtn"><Link className="links" to="/login" alt="m" >Login</Link></button>
 </div>
     </section>
     

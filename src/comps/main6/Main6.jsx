@@ -60,77 +60,145 @@ const Main6 = () => {
 </div>
 
 
+<OwlCarousel   className="mobno owl-theme" margin={10} items={2} nav>
 
-<OwlCarousel    className="owl-theme ddf" margin={10} items={2} nav>
 
-
-    <div className="feed01">
-      <img src={dbqu} alt=""/>
+<div className="feed01">
+  <img src={dbqu} alt=""/>
 
 <h3> Very Helpful</h3>
 <span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img className='induja' src={client01} alt="" />
-   <div>
-   <h1>indujha</h1>
-    <h2>chennai</h2>
-   </div>
+<img className='induja' src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
 </div>
 
-    </div>
-    <div className="feed01">
-      <img src={dbqu} alt=""/>
+</div>
+<div className="feed01">
+  <img src={dbqu} alt=""/>
 
 <h3> Feel better</h3>
 <span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img className='induja'src={client01} alt="" />
-   <div>
-   <h1>indujha</h1>
-    <h2>chennai</h2>
-   </div>
+<img className='induja'src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
 </div>
 
-    </div>
-    <div className="feed01">
-      <img src={dbqu} alt=""/>
+</div>
+<div className="feed01">
+  <img src={dbqu} alt=""/>
 
 <h3> </h3>
 <span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img className='induja'src={client01} alt="" />
-   <div>
-   <h1>indujha</h1>
-    <h2>chennai</h2>
-   </div>
+<img className='induja'src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
 </div>
 
-    </div>
-    <div className="feed01">
-      <img src={dbqu} alt=""/>
+</div>
+<div className="feed01">
+  <img src={dbqu} alt=""/>
 
 <h3> Very Helpful</h3>
 <span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
 <div className='gryline'></div>
 <div className='clientdet'>
 
-    <img className='induja'src={client01} alt="" />
-   <div>
-   <h1>indujha</h1>
-    <h2>chennai</h2>
-   </div>
+<img className='induja'src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
 </div>
 
-    </div>
+</div>
 
-    </OwlCarousel>
-    
+</OwlCarousel>
+
+<OwlCarousel   className="deskt owl-theme" margin={100} items={1} nav>
+
+
+<div className="marglef5 feed01">
+  <img src={dbqu} alt=""/>
+
+<h3> Very Helpful</h3>
+<span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
+<div className='gryline'></div>
+<div className='clientdet'>
+
+<img className='induja' src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
+</div>
+
+</div>
+<div className="marglef5 feed01">
+  <img src={dbqu} alt=""/>
+
+<h3> Feel better</h3>
+<span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
+<div className='gryline'></div>
+<div className='clientdet'>
+
+<img className='induja'src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
+</div>
+
+</div>
+<div className="marglef5 feed01">
+  <img src={dbqu} alt=""/>
+
+<h3> </h3>
+<span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
+<div className='gryline'></div>
+<div className='clientdet'>
+
+<img className='induja'src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
+</div>
+
+</div>
+<div className="marglef5 feed01">
+  <img src={dbqu} alt=""/>
+
+<h3> Very Helpful</h3>
+<span>far easier than doing something on computer. allows quick and aesy search with speedy booking.even maintains history of doctors visited</span>
+<div className='gryline'></div>
+<div className='clientdet'>
+
+<img className='induja'src={client01} alt="" />
+<div>
+<h1>indujha</h1>
+<h2>chennai</h2>
+</div>
+</div>
+
+</div>
+
+</OwlCarousel>
 
 
 

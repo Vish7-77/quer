@@ -4,12 +4,12 @@ import docblog01 from "../../assets/docblog01.png"
 import rdocart01 from "../../assets/rdocart01.png"
 const DocBlog = () => {
   return (
-    <section className="main4">
+    <section className="martop10p main4">
     <div className="uppermain4">
       <h1>Blogs From Doctor</h1>
     </div>
-    <div className="lowermain4">
-      <div className="cardmain4">
+    <div className="posss lowermain4">
+      <div className="posin cardmain4">
           <img src={docblog01} alt="" />
         <span className="childprn"><img src={yellowstar} alt=""/> 4.2 </span>
         <h3>How to Quit Looking at pornography...  </h3>
@@ -25,7 +25,7 @@ const DocBlog = () => {
 </div>
   
       </div>
-      <div className="cardmain4">
+      <div className="posin cardmain4">
           <img src={rdocart01} alt="" />
         <span className="childprn"><img src={yellowstar} alt=""/> 4.2 </span>
         <h3>How to Quit Looking at pornography...  </h3>

@@ -261,7 +261,9 @@ const Main = () => {
               +
             </button>
           </div>
-
+          <span className="back" onClick={() => setnonflip02(!flip)}>
+              {" "}
+            </span>
         
         </div>
       </div>
@@ -450,7 +452,7 @@ const Main = () => {
         style={{ display: showbtn ? "flex" : "none" }}
         className="deskcard"
       >
-            <div className={`cardo ${flip ? "flip" : ""}mobno`}>
+            <div className={`cardo ${flip ? "flip" : ""} mobno`}>
           <div
             onClick={() => {
               setflip(!flip);

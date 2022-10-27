@@ -10,6 +10,24 @@ import herobg from "../../assets/herobg.png";
 import cartoonhome from "../../assets/cartoonhome.png";
 import allgroup from "../../assets/allgroup.png";
 const Hero = () => {
+  const  showfoot=()=>{
+    document.getElementById('footer').style.display="flex"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+        useEffect(() => {
+            showfoot()
+        },[])
+
   const Func01=()=>{
     document.getElementById("header").style.display="flex"
     document.getElementById("footer").style.display="flex"
