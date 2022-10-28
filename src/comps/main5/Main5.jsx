@@ -136,7 +136,7 @@ const Main = () => {
               X
             </button>
           </div>
-          <div style={{ display: isShown ? "block" : "none",marginTop:"-20%" }}>
+          <div style={{ display: isShown ? "block" : "none", marginTop:"-20%" }}>
             <span className="bll"></span>
             <h1 className="h111">what is sexology?</h1>
             <button className="cross">
@@ -149,7 +149,7 @@ const Main = () => {
             {" "}
           </span>
           {/* <button >hello</button> */}
-        </div>
+        </div> 
       </div>
 
       <div className={`cardo ${nonflip ? "flip" : ""} mobno`}>
@@ -431,27 +431,8 @@ const Main = () => {
         </div>
         </OwlCarousel>
 
-        {/* <div className={`cardo ${flip01 ? "flip" : ""}`}>
-          <div
-            onClick={() => {
-              setflip01(!flip01);
-              setIsShown01((current) => !current);
-            }}
-            className="front"
-          >
-            <h1 id="name">hello</h1>
-            <h2 id="bb">bisc</h2>
-            <span className="back" onClick={() => setflip01(!flip01)}>
-              {" "}
-              this is me hello
-            </span>
-          </div>
-        </div> */}
       </section>
-      <section
-        style={{ display: showbtn ? "flex" : "none" }}
-        className="deskcard"
-      >
+      <section    style={{ display: showbtn ? "flex" : "none" }} className="deskcard"  >
             <div className={`cardo ${flip ? "flip" : ""} mobno`}>
           <div
             onClick={() => {

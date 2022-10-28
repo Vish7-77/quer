@@ -3,14 +3,39 @@ import {Link} from "react-router-dom"
 const Rotp = () => {
 
 
-  const Func01=()=>{
+  const vart = window.innerWidth;
+
+  const nomobres=()=>{
+  
     document.getElementById("header").style.display="none"
+    document.getElementById("footer").style.display="none"
+  }
+  
+  
+   const mobres=()=>{
+    console.log(vart)
+  if(vart===390){
+    Func01()
+  }
+  else{
+    nomobres()
+  }
+  
+  
+   }
+  
+  
+  
+  const Func01=()=>{
+    document.getElementById("header").style.display="flex"
     document.getElementById("footer").style.display="none"
   }
      
   useEffect(() => {
-   Func01()
+  
+   mobres()
   })
+
   return (
     <section class="container01">
       <section className="sideimg"></section>

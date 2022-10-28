@@ -9,14 +9,39 @@ import { BsEye ,BsEyeSlash} from "react-icons/bs"
 const Signupmob = () => {
 
 
-  const Func01=()=>{
+  const vart = window.innerWidth;
+
+  const nomobres=()=>{
+  
     document.getElementById("header").style.display="none"
+    document.getElementById("footer").style.display="none"
+  }
+  
+  
+   const mobres=()=>{
+    console.log(vart)
+  if(vart===390){
+    Func01()
+  }
+  else{
+    nomobres()
+  }
+  
+  
+   }
+  
+  
+  
+  const Func01=()=>{
+    document.getElementById("header").style.display="flex"
     document.getElementById("footer").style.display="none"
   }
      
   useEffect(() => {
-   Func01()
+  
+   mobres()
   })
+
 
   const cliqpass=()=>{
     setisclicked((curr)=>!curr)
@@ -49,12 +74,14 @@ const Signupmob = () => {
 <input type="city" required className="numtext marbot12" placeholder='Please Enter Your City Name'/>
 <h4 className='mobilenum'>Email-id</h4>
 <input type="emial" required className="numtext marbot12" placeholder='Please Enter Your Full Name'/>
-
+<div className='monst'>
 <h4 className='mobilenum'>Password (Optional) </h4>     
 <input type={isclicked ? 'password':'text'} className="numtext marbot12" required placeholder=' Enter Your Password'/>
 
- <span className='eyepass' onClick={cliqpass} style={{ display:isclicked ?'none':'block',position:"absolute",top:'108%', right:"13%",cursor:'pointer'}}><BsEyeSlash/></span>
- <span onClick={cliqpass} className="eyepass" style={{ display:isclicked ?'block':'none',position:"absolute",top:'108%', right:"13%",cursor:'pointer'}}><BsEye/></span>
+ <span className='eyepass01 eyepass' onClick={cliqpass} style={{ display:isclicked ?'none':'block',position:"absolute",top:'108%', right:"13%",cursor:'pointer'}}><BsEyeSlash/></span>
+ <span onClick={cliqpass} className="eyepass01 eyepass" style={{ display:isclicked ?'block':'none',position:"absolute",top:'108%', right:"13%",cursor:'pointer'}}><BsEye/></span>
+ </div>
+ 
  <div class="form-check martop22 marbot11 marbot12">
   <input required class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
   <label style={{fontSize:'13px',fonntWeight:'500px',fontFamily:'Montserrat'}}  class="form-check-label" for="flexCheckDefault">

@@ -139,6 +139,51 @@ height: 36px !important;
   height: 50px; 
 }
 
+.sideimg{
+  display: none;
+}
+.longimg{
+  display: none;
+}
+.monst{
+position: relative;
+
+}
+.disc15{
+  bottom: -49% !important;
+  width: 343px !important;
+}
+.eyepass01{
+  top: 42% !important;
+  right: 8% !important;
+}
+
+
+header{
+  display: flex;
+}
+.formspace{
+  height: 100%;
+}
+
+.eyepass{
+  top: 48% !important;
+  right: 7% !important;
+}
+
+.forgotpass{
+  top: 34% !important;
+  right: 4% !important;
+}
+.main-form{
+  position: relative;
+}
+
+.in-form{
+  position: inherit !important; 
+  top: 10% !important;
+  /* z-index: -1; */
+}
 .kha{
   display: block !important;
 }
@@ -197,6 +242,27 @@ margin-left: 6% !important;
   margin-bottom: 252px;
   justify-content: space-evenly;
 }
+
+
+.disc{
+  height: 220px !important;
+  width: 323px !important;
+
+}
+
+
+.lastdotli{
+  margin-top: 73px !important;
+}
+
+
+.litwo{
+
+margin-top: 23px;
+
+
+}
+
 #mobios{
   position:'initial !important';
   width:122px !important;

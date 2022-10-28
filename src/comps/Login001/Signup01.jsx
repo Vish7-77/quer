@@ -5,15 +5,41 @@ import discli from "../../assets/discli.svg"
 import "../loginside/iaks.css"
 
 const Login001 = () => {
-const Func01=()=>{
-  document.getElementById("header").style.display="none"
-  document.getElementById("footer").style.display="none"
-}
-   
-useEffect(() => {
- Func01()
-})
 
+   const vart = window.innerWidth;
+
+   const nomobres=()=>{
+   
+     document.getElementById("header").style.display="none"
+     document.getElementById("footer").style.display="none"
+   }
+   
+   
+    const mobres=()=>{
+     console.log(vart)
+   if(vart===390){
+     Func01()
+   }
+   else{
+     nomobres()
+   }
+   
+   
+    }
+   
+   
+   
+   const Func01=()=>{
+     document.getElementById("header").style.display="flex"
+     document.getElementById("footer").style.display="none"
+   }
+      
+   useEffect(() => {
+   
+    mobres()
+   })
+   
+   
 
 
   return (
@@ -59,7 +85,7 @@ useEffect(() => {
       
        <li>Your first name is not visible to Qurex support members <a href="/" style={{textDecoration:'none'}}> but just the doctor</a> </li>
 
-   <li>Your personal details are mandatory for a doctor consultation as per government policy, please be assured <a href="/" style={{textDecoration:'none'}}>  ‘we respect your privacy’</a></li>
+   <li className="litwo">Your personal details are mandatory for a doctor consultation as per government policy, please be assured <a href="/" style={{textDecoration:'none'}}>  ‘we respect your privacy’</a></li>
    
    <li className='lastdotli'><a href="/" style={{textDecoration:'none'}}> Email is required </a>for important treatment related conversation</li>
    
